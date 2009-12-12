@@ -22,6 +22,7 @@
 @property (nonatomic, retain) NSArray *contactStatus;
 @property (nonatomic, retain) NSMutableArray *contactStats;
 
+- (IBAction) postStatus:(id)sender;
 - (void)friends_status_callback:(NSData *)data;
-
+- (void)status_update_callback:(NSData *)data;
 @end

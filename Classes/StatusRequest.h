@@ -11,23 +11,22 @@
 @interface StatusRequest : NSObject {
 	NSMutableData		*receivedData;
 	NSURLRequest		*theRequest;
-	NSURLConnection		*theConnection;
-	id					delegate;
-	SEL					callback;
-	SEL					errorCallback;
-	
-	BOOL				isPost;
-	NSString			*requestBody;
+	NSURLConnection	*theConnection;
+	id							delegate;
+	SEL							callback;
+	SEL							errorCallback;	
+	BOOL						isPost;
+	NSString				*requestBody;
 }
 
 @property(nonatomic, retain) NSMutableData	*receivedData;
-@property(nonatomic, retain) id				delegate;
-@property(nonatomic) SEL					callback;
-@property(nonatomic) SEL					errorCallback;
+@property(nonatomic, retain) id							delegate;
+@property(nonatomic)				 SEL						callback;
+@property(nonatomic)				 SEL						errorCallback;
 
 -(void)friends_status:(id)requestDelegate requestSelector:(SEL)requestSelector;
--(void)request:(NSURL *)url;
 -(void)status_update:(NSString *)status delegate:(id)requestDelegate requestSelector:(SEL)requestSelector;
+-(void)request:(NSURL *)url;
 
 @end
 

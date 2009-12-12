@@ -27,24 +27,22 @@
 
 
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-	
-//	self.wantsFullScreenLayout = YES;
-	
+- (void)loadView {	
+  //	self.wantsFullScreenLayout = YES;
 	StatusRequest *statusRequest = [[StatusRequest alloc] init];
 	NSLog(@"Getting friends status for user");
 	contactStatus = [[NSArray alloc] init];
 	contactStats = [[NSMutableArray alloc] init];
-    [statusRequest friends_status:self requestSelector:@selector(friends_status_callback:)];
+  [statusRequest friends_status:self requestSelector:@selector(friends_status_callback:)];
 	
 	StatusView *view = [[StatusView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
-    view.statusViewController = self;
+  view.statusViewController = self;
 	view.contactStatusView.delegate = self;
 	view.contactStatusView.dataSource = self;
 	self.view = view;
-    self.statusView = view;
+  self.statusView = view;
 	
-    [view release];	
+  [view release];	
 }
 
 
@@ -52,7 +50,7 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-}
+ }
 */
 
 /*
@@ -134,11 +132,49 @@
 	[self.statusView.contactStatusView reloadData];
 }
 
-- (BOOL)textFieldShouldReturn:(UITextField *)textField
-{
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
 	[textField resignFirstResponder];
+	NSLog(@"Updating status for user");
+	
+	//[statusRequest friends_status:self requestSelector:@selector(friends_status_callback:)];
+	
+  //[statusRequest status_update:@"foo bar status" delegate:self requestSelector:@selector(status_update_callback:)];
 	
 	return YES;
+}
+
+- (IBAction) postStatus:(id)sender {
+	NSLog(@"posting status");
+	NSString *status = [statusView.myStatusView text];
+	StatusRequest *statusRequest = [[StatusRequest alloc] init];
+	
+	if([status length] == 0) {
+		NSLog(@"The status is empty, nothing to post");
+	  return;
+	}
+	
+	[statusRequest status_update:status delegate:self requestSelector:@selector(status_update_callback:)];
+}
+
+- (void) status_update_callback:(NSData *)data {
+	NSString *status = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
+	NSLog(@"Status update callback %@", status);
+	
+//	SBJSON *jsonParser = [SBJSON new];
+//	contactStatus = [jsonParser objectWithString:status];
+//	NSMutableString *stat = [NSMutableString stringWithString:@"Friend Status:\n"];
+//	for (int i=0; i<[contactStatus count]; i++) {
+//		
+//		NSString * s = [contactStatus objectAtIndex:i];
+//		[stat appendFormat:@"%@\n", s];
+//		[contactStats addObject:s];
+//	}
+	
+	//	NSDictionary *results = [status JSONValue];
+	//	NSArray *values = [results allValues];
+	//	for(NSArray *value in values) {
+	//		[contactStats addObject:value];
+	//	}
 }
 
 @end

@@ -15,7 +15,7 @@
 
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        // Initialization code
+        
 		self.myStatusView = [[[UITextField alloc] initWithFrame:CGRectMake(5, 5, 240, 25)] autorelease];
 		self.myStatusView.font = [UIFont fontWithName:@"Helvetica" size:14];
 		[self.myStatusView setBorderStyle:UITextBorderStyleRoundedRect];
@@ -24,11 +24,14 @@
 		self.myStatusView.placeholder = @"What is your status?";
 		[self addSubview:myStatusView];
 		
-		self.statusButton = [[[UIButton alloc] initWithFrame:CGRectMake(250, 5, 65, 25)] autorelease];
-		//self.statusButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+		self.statusButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+		self.statusButton.frame = CGRectMake(250, 5, 65, 25);			
+//		self.statusButton = [[[UIButton alloc] initWithFrame:CGRectMake(250, 5, 65, 25)] autorelease];
 		[self.statusButton setTitle:@"Update" forState:UIControlStateNormal & UIControlStateHighlighted & UIControlStateSelected];
 		[self.statusButton setTitleColor:[UIColor blackColor] forState:UIControlEventTouchDown];
-		[self.statusButton setBackgroundColor:[UIColor orangeColor]];
+		//[self.statusButton setBackgroundColor:[UIColor orangeColor]];
+		
+			[self.statusButton addTarget:statusViewController action:@selector(postStatus:)forControlEvents:UIControlEventTouchUpInside];
 		[self addSubview:self.statusButton];
 		
 		self.contactStatusView = [[UITableView alloc] initWithFrame:CGRectMake(0, 50, 340, 400) style:UITableViewStylePlain];

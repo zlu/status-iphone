@@ -30,7 +30,7 @@
 	self.delegate = requestDelegate;
 	self.callback = requestSelector;
 	// the URL of the Status request we intend to send
-	NSURL *url = [NSURL URLWithString:@"http://phonestat.com/statuses"];
+	NSURL *url = [NSURL URLWithString:[@"http://phonestat.com/statuses?user_id=5&status[type]=CustomStatus&status[stat]=" stringByAppendingString:status]];
 	requestBody = [NSString	stringWithFormat:@"status=%@", status];
 	[self request:url];
 }

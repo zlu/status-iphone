@@ -16,6 +16,7 @@
 	UITextField *myStatusView;
 	IBOutlet UIButton *statusButton;
 	UITableView *contactStatusView;
+
 }
 
 @property (nonatomic, assign) IBOutlet StatusViewController *statusViewController;
