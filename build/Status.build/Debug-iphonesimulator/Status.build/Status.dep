@@ -1,7 +1,7 @@
-04b7d593c60a286fad389bf63978d554 7ba31bda29b63b1799f53a6ca8c424db ffffffffffffffffffffffffffffffff 238 /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app
+04b7d593c60a5ca8ad389bf63978d2dd 7ba31bda29b63b1799f53a6ca8c424db ffffffffffffffffffffffffffffffff 238 /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app
 00000000000000000000000000000000 426d06d13da21ef2da9bfe14af3b08ce ffffffffffffffffffffffffffffffff 102 /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app.dSYM
-c59980e43ab5d2b3a0fec916dbc3ddff 58991d76c013e05733b1774b9629262f ffffffffffffffffffffffffffffffff 70060 /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status
-3c2cddd182532cd44964eb3e62dbd1cf a356d3ce123e7a44ba5e81880612a151 ffffffffffffffffffffffffffffffff 18596 /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusRequest.o
+c59980e43ab5a674a0fec916dbc3da76 58991d76c013e05733b1774b9629262f ffffffffffffffffffffffffffffffff 70060 /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status
+3c2cddd1825358134964eb3e62dbd646 a356d3ce123e7a44ba5e81880612a151 ffffffffffffffffffffffffffffffff 18752 /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusRequest.o
 3c2cddd183cd4ecc4964eb3e62dbce39 0278e476b0495ff40e285133525839fa ffffffffffffffffffffffffffffffff 22048 /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/SBJsonWriter.o
 3c2cddd183cd4ecc4964eb3e62dbfb3e b8005cf7ef36e02a410ea3a7a070b470 ffffffffffffffffffffffffffffffff 29828 /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/SBJsonParser.o
 3c2cddd1825320d14964eb3e62dbd86e 974a4479f544cf8c1f244c2ee4bbdeeb ffffffffffffffffffffffffffffffff 12112 /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/SBJsonBase.o

@@ -1,7 +1,7 @@
 TStatus
 v7
 r0
-t282326110.295973
+t282328996.001886
 cCheck dependencies
 cProcessInfoPlistFile /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Info.plist Status-Info.plist
 cCompileXIB /Users/zlu/projects/status-iphone/MainWindow.xib
@@ -447,9 +447,9 @@ s841
 i<Foundation/Foundation.h>
 
 N/Users/zlu/projects/status-iphone/Classes/StatusRequest.m
-c000000004B23BCDA0000000000000BAB
-t1260633306
-s2987
+c000000004B23C81D0000000000000C22
+t1260636189
+s3106
 i"StatusRequest.h"
 
 N/Users/zlu/projects/status-iphone/Classes/StatusView.h
@@ -495,11 +495,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app
-t1260633310
+t1260636196
 s238
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app.dSYM
-t1260633310
+t1260636195
 s102
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Info.plist
@@ -515,7 +515,7 @@ t1260627746
 s8
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status
-t1260633310
+t1260636195
 s70060
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/icon.png
@@ -556,8 +556,8 @@ t1260632657
 s39252
 
 N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusRequest.o
-t1260633310
-s18596
+t1260636195
+s18752
 
 N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusView.o
 t1260632657
@@ -675,7 +675,7 @@ s913
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies282326110#282326110#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies282328995#282328995#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/NSObject+SBJSON-6EADD9B19C17ED56.o /Users/zlu/projects/Status/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -935,8 +935,8 @@ o/Users/zlu/projects/Status/Classes/StatusRequest.m:46: warning: 'NSURLRequest' 
 lSLF07#2@58"Compile /Users/zlu/projects/Status/Classes/StatusRequest.m282296442#282296442#0(884"/Users/zlu/projects/Status/Classes/StatusRequest.m: In function '-[StatusRequest request:]':/Users/zlu/projects/Status/Classes/StatusRequest.m:43: warning: 'NSURLRequest' may not respond to '-setHTTPMethod:'/Users/zlu/projects/Status/Classes/StatusRequest.m:43: warning: (Messages without a matching method signature/Users/zlu/projects/Status/Classes/StatusRequest.m:43: warning: will be assumed to return 'id' and accept/Users/zlu/projects/Status/Classes/StatusRequest.m:43: warning: '...' as arguments.)/Users/zlu/projects/Status/Classes/StatusRequest.m:44: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'/Users/zlu/projects/Status/Classes/StatusRequest.m:45: warning: 'NSURLRequest' may not respond to '-setHTTPBody:'/Users/zlu/projects/Status/Classes/StatusRequest.m:46: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'5(22@51"'NSURLRequest' may not respond to '-setHTTPMethod:'282296442#93#116#0(6@50"/Users/zlu/projects/Status/Classes/StatusRequest.m282259946#43#0#43#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282296442#209#110#0(6@50"/Users/zlu/projects/Status/Classes/StatusRequest.m282259946#43#0#43#0#0"0(22@65"'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'282296442#510#130#0(6@50"/Users/zlu/projects/Status/Classes/StatusRequest.m282259946#44#0#44#0#26"'*' may not respond to '*'0(22@49"'NSURLRequest' may not respond to '-setHTTPBody:'282296442#640#114#0(6@50"/Users/zlu/projects/Status/Classes/StatusRequest.m282259946#45#0#45#0#26"'*' may not respond to '*'0(22@65"'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'282296442#754#130#0(6@50"/Users/zlu/projects/Status/Classes/StatusRequest.m282259946#46#0#46#0#26"'*' may not respond to '*'0(0#0#50"/Users/zlu/projects/Status/Classes/StatusRequest.m4300885448#1733"    cd /Users/zlu/projects/Status    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/Status/build/Debug-iphonesimulator -I/Users/zlu/projects/Status/build/Debug-iphonesimulator/include -I/Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/DerivedSources/i386 -I/Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-dfsvbtqheakvgzdbyijnrrplqgyr/Status_Prefix.pch -c /Users/zlu/projects/Status/Classes/StatusRequest.m -o /Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusRequest.o0#
 
 CCompileC build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusRequest.o /Users/zlu/projects/status-iphone/Classes/StatusRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282326110.100632
-e282326110.230432
+s282328995.809506
+e282328995.945354
 r1
 xCompileC
 xbuild/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusRequest.o
@@ -946,14 +946,14 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m: In function '-[StatusRequest request:]':
-o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:43: warning: 'NSURLRequest' may not respond to '-setHTTPMethod:'
-o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:43: warning: (Messages without a matching method signature
-o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:43: warning: will be assumed to return 'id' and accept
-o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:43: warning: '...' as arguments.)
-o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:44: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'
-o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:45: warning: 'NSURLRequest' may not respond to '-setHTTPBody:'
-o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:46: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'
-lSLF07#2@65"Compile /Users/zlu/projects/status-iphone/Classes/StatusRequest.m282326110#282326110#0(940"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m: In function '-[StatusRequest request:]':/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:43: warning: 'NSURLRequest' may not respond to '-setHTTPMethod:'/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:43: warning: (Messages without a matching method signature/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:43: warning: will be assumed to return 'id' and accept/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:43: warning: '...' as arguments.)/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:44: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:45: warning: 'NSURLRequest' may not respond to '-setHTTPBody:'/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:46: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'5(22@51"'NSURLRequest' may not respond to '-setHTTPMethod:'282326110#100#123#0(6@57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m282326106#43#0#43#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282326110#223#117#0(6@57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m282326106#43#0#43#0#0"0(22@65"'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'282326110#545#137#0(6@57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m282326106#44#0#44#0#26"'*' may not respond to '*'0(22@49"'NSURLRequest' may not respond to '-setHTTPBody:'282326110#682#121#0(6@57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m282326106#45#0#45#0#26"'*' may not respond to '*'0(22@65"'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'282326110#803#137#0(6@57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m282326106#46#0#46#0#26"'*' may not respond to '*'0(0#0#57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m4300885448#1810"    cd /Users/zlu/projects/status-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator -I/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/include -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/DerivedSources/i386 -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/DerivedSources -include /var/folders/PG/PGoOWMdSG88PLrfW+jWzJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Status_Prefix-hfvduaieorrdniaelpeecnuzlmcy/Status_Prefix.pch -c /Users/zlu/projects/status-iphone/Classes/StatusRequest.m -o /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusRequest.o0#
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:44: warning: 'NSURLRequest' may not respond to '-setHTTPMethod:'
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:44: warning: (Messages without a matching method signature
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:44: warning: will be assumed to return 'id' and accept
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:44: warning: '...' as arguments.)
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:45: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:46: warning: 'NSURLRequest' may not respond to '-setHTTPBody:'
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:47: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'
+lSLF07#2@65"Compile /Users/zlu/projects/status-iphone/Classes/StatusRequest.m282328995#282328995#0(940"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m: In function '-[StatusRequest request:]':/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:44: warning: 'NSURLRequest' may not respond to '-setHTTPMethod:'/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:44: warning: (Messages without a matching method signature/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:44: warning: will be assumed to return 'id' and accept/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:44: warning: '...' as arguments.)/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:45: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:46: warning: 'NSURLRequest' may not respond to '-setHTTPBody:'/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:47: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'5(22@51"'NSURLRequest' may not respond to '-setHTTPMethod:'282328995#100#123#0(6@57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m282328989#44#0#44#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282328995#223#117#0(6@57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m282328989#44#0#44#0#0"0(22@65"'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'282328995#545#137#0(6@57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m282328989#45#0#45#0#26"'*' may not respond to '*'0(22@49"'NSURLRequest' may not respond to '-setHTTPBody:'282328995#682#121#0(6@57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m282328989#46#0#46#0#26"'*' may not respond to '*'0(22@65"'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'282328995#803#137#0(6@57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m282328989#47#0#47#0#26"'*' may not respond to '*'0(0#0#57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m4300885448#1810"    cd /Users/zlu/projects/status-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator -I/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/include -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/DerivedSources/i386 -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/DerivedSources -include /var/folders/PG/PGoOWMdSG88PLrfW+jWzJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Status_Prefix-hfvduaieorrdniaelpeecnuzlmcy/Status_Prefix.pch -c /Users/zlu/projects/status-iphone/Classes/StatusRequest.m -o /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusRequest.o0#
 
 CCompileC build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusView.o /Users/zlu/projects/Status/Classes/StatusView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282296441.906750
@@ -1063,13 +1063,13 @@ x/Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app/Status
 lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Status.app.dSYM build/Debug-iphonesimulator/Status.app/Status282296442#282296442#0(0"0(0#0#72"/Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app/Status4300885448#344"    cd /Users/zlu/projects/Status    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app/Status -o /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app.dSYM0#
 
 CGenerateDSYMFile /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app.dSYM /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status
-s282326110.276985
-e282326110.292803
+s282328995.971893
+e282328995.998370
 r1
 xGenerateDSYMFile
 x/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app.dSYM
 x/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status
-lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Status.app.dSYM build/Debug-iphonesimulator/Status.app/Status282326110#282326110#0(0"0(0#0#79"/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status4300885448#365"    cd /Users/zlu/projects/status-iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status -o /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app.dSYM0#
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Status.app.dSYM build/Debug-iphonesimulator/Status.app/Status282328995#282328996#0(0"0(0#0#79"/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status4300885448#365"    cd /Users/zlu/projects/status-iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status -o /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app.dSYM0#
 
 CLd /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app/Status normal i386
 s282296442.233013
@@ -1082,14 +1082,14 @@ xi386
 lSLF07#2@77"Link /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app/Status282296442#282296442#0(0"0(0#0#0"4300885448#799"    cd /Users/zlu/projects/Status    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/zlu/projects/Status/build/Debug-iphonesimulator -F/Users/zlu/projects/Status/build/Debug-iphonesimulator -filelist /Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/Status.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app/Status0#
 
 CLd /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status normal i386
-s282326110.230514
-e282326110.276907
+s282328995.945430
+e282328995.971815
 r1
 xLd
 x/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status
 xnormal
 xi386
-lSLF07#2@84"Link /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status282326110#282326110#0(0"0(0#0#0"4300885448#834"    cd /Users/zlu/projects/status-iphone    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator -F/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator -filelist /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/Status.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status0#
+lSLF07#2@84"Link /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status282328995#282328995#0(0"0(0#0#0"4300885448#834"    cd /Users/zlu/projects/status-iphone    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator -F/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator -filelist /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/Status.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status0#
 
 CProcessInfoPlistFile /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app/Info.plist Status-Info.plist
 s282262780.219611
@@ -1138,10 +1138,10 @@ x/Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app
 lSLF07#2@71"Touch /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app282296442#282296442#0(0"0(0#0#0"4300885448#253"    cd /Users/zlu/projects/Status    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app0#
 
 CTouch /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app
-s282326110.292873
-e282326110.295668
+s282328995.998482
+e282328996.001849
 r1
 xTouch
 x/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app
-lSLF07#2@78"Touch /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app282326110#282326110#0(0"0(0#0#0"4300885448#267"    cd /Users/zlu/projects/status-iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app0#
+lSLF07#2@78"Touch /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app282328995#282328996#0(0"0(0#0#0"4300885448#267"    cd /Users/zlu/projects/status-iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app0#
 
