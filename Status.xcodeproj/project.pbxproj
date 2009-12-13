@@ -23,6 +23,7 @@
 		28C5022C10D2F0C700F9816A /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C5022610D2F0C700F9816A /* SBJsonWriter.m */; };
 		28C5022F10D2F0FD00F9816A /* StatusRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C5022E10D2F0FD00F9816A /* StatusRequest.m */; };
 		28C502D810D2FBB600F9816A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 28C502D710D2FBB600F9816A /* icon.png */; };
+		28CD4ACE10D46A2C003F1A6A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CD4ACD10D46A2C003F1A6A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		28C5022D10D2F0FD00F9816A /* StatusRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusRequest.h; sourceTree = "<group>"; };
 		28C5022E10D2F0FD00F9816A /* StatusRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusRequest.m; sourceTree = "<group>"; };
 		28C502D710D2FBB600F9816A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		28CD4ACD10D46A2C003F1A6A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Status_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Status-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Status-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				28CD4ACE10D46A2C003F1A6A /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +156,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				28CD4ACD10D46A2C003F1A6A /* CoreLocation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

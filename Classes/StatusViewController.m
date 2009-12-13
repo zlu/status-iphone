@@ -14,6 +14,7 @@
 @implementation StatusViewController
 
 @synthesize statusView, contactStats, contactStatus;
+@synthesize locationManager, locationMeasurements, bestEffortAtLocation;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -46,12 +47,18 @@
 }
 
 
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
- }
-*/
+	self.locationManager = [[[CLLocationManager alloc] init] autorelease];
+	self.locationManager.delegate = self;
+	// This is the most important property to set for the manager. It ultimately determines how the manager will
+	// attempt to acquire location and thus, the amount of power that will be consumed.
+	//locationManager.desiredAccuracy = [NSNumber numberWithDouble:kCLLocationAccuracyThreeKilometers];
+	// Once configured, the location manager must be "started".
+	//[self.locationManager startUpdatingLocation];
+}
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -75,7 +82,10 @@
 
 
 - (void)dealloc {
-    [super dealloc];
+	[self.locationManager release];
+	[self.locationMeasurements release];
+	[self.bestEffortAtLocation release];
+  [super dealloc];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -121,12 +131,6 @@
 		[contactStats addObject:s];
 	}
 	
-	//	NSDictionary *results = [status JSONValue];
-	//	NSArray *values = [results allValues];
-	//	for(NSArray *value in values) {
-	//		[contactStats addObject:value];
-	//	}
-	
 	NSLog(@"Combined stat %@", stat);
 	
 	[self.statusView.contactStatusView reloadData];
@@ -144,8 +148,14 @@
 }
 
 - (IBAction) postStatus:(id)sender {
+	[self.locationManager startUpdatingLocation];
+}
+
+- (void)postStatusWithLocation:(CLLocation *)location {
 	NSLog(@"posting status");
 	NSString *status = [statusView.myStatusView text];
+	NSString *latitude = [NSString stringWithFormat:@"%3.5f", location.coordinate.latitude];
+	NSString *longitude = [NSString stringWithFormat:@"%3.5f", location.coordinate.longitude];
 	StatusRequest *statusRequest = [[StatusRequest alloc] init];
 	
 	if([status length] == 0) {
@@ -153,7 +163,8 @@
 	  return;
 	}
 	
-	[statusRequest status_update:status delegate:self requestSelector:@selector(status_update_callback:)];
+	[statusRequest status_update:status latitude:latitude longitude:longitude delegate:self requestSelector:@selector(status_update_callback:)];	
+	
 }
 
 - (void) status_update_callback:(NSData *)data {
@@ -175,6 +186,53 @@
 	//	for(NSArray *value in values) {
 	//		[contactStats addObject:value];
 	//	}
+}
+
+/*
+ * We want to get and store a location measurement that meets the desired accuracy. For this example, we are
+ *      going to use horizontal accuracy as the deciding factor. In other cases, you may wish to use vertical
+ *      accuracy, or both together.
+ */
+- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
+	// store all of the measurements, just so we can see what kind of data we might receive
+	[self.locationMeasurements addObject:newLocation];
+	// test the age of the location measurement to determine if the measurement is cached
+	// in most cases you will not want to rely on cached measurements
+	NSTimeInterval locationAge = -[newLocation.timestamp timeIntervalSinceNow];
+	if (locationAge > 5.0) return;
+	// test that the horizontal accuracy does not indicate an invalid measurement
+	if (newLocation.horizontalAccuracy < 0) return;
+	// test the measurement to see if it is more accurate than the previous measurement
+	if (bestEffortAtLocation == nil || bestEffortAtLocation.horizontalAccuracy < newLocation.horizontalAccuracy) {
+		// store the location as the "best effort"
+		self.bestEffortAtLocation = newLocation;
+		// test the measurement to see if it meets the desired accuracy
+		//
+		// IMPORTANT!!! kCLLocationAccuracyBest should not be used for comparison with location coordinate or altitidue 
+		// accuracy because it is a negative value. Instead, compare against some predetermined "real" measure of 
+		// acceptable accuracy, or depend on the timeout to stop updating. This sample depends on the timeout.
+		//
+		if (newLocation.horizontalAccuracy <= locationManager.desiredAccuracy) {
+			// we have a measurement that meets our requirements, so we can stop updating the location
+			// 
+			// IMPORTANT!!! Minimize power usage by stopping the location manager as soon as possible.
+			//
+			[self stopUpdatingLocation:NSLocalizedString(@"Acquired Location", @"Acquired Location")];
+			// we can also cancel our previous performSelector:withObject:afterDelay: - it's no longer necessary
+			[NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(stopUpdatingLocation:) object:nil];
+		}
+	}
+	// update the display with the new location data
+	[self postStatusWithLocation:newLocation];   
+}
+
+- (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error {
+	// The location "unknown" error simply means the manager is currently unable to get the location.
+	// We can ignore this error for the scenario of getting a single location fix, because we already have a 
+	// timeout that will stop the location manager to save power.
+	if ([error code] != kCLErrorLocationUnknown) {
+		[self stopUpdatingLocation:NSLocalizedString(@"Error", @"Error")];
+	}
 }
 
 @end

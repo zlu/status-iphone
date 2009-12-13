@@ -25,7 +25,7 @@
 @property(nonatomic)				 SEL						errorCallback;
 
 -(void)friends_status:(id)requestDelegate requestSelector:(SEL)requestSelector;
--(void)status_update:(NSString *)status delegate:(id)requestDelegate requestSelector:(SEL)requestSelector;
+-(void)status_update:(NSString *)status latitude:(NSString *)latitude longitude:(NSString *)longitude delegate:(id)requestDelegate requestSelector:(SEL)requestSelector;
 -(void)request:(NSURL *)url;
 
 @end

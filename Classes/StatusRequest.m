@@ -24,14 +24,23 @@
 	[self request:url];
 }
 
--(void)status_update:(NSString *)status delegate:(id)requestDelegate requestSelector:(SEL)requestSelector; {
+-(void)status_update:(NSString *)status latitude:(NSString *)latitude longitude:(NSString *)longitude delegate:(id)requestDelegate requestSelector:(SEL)requestSelector; {
 	isPost = YES;
 	// Set the delegate and selector
 	self.delegate = requestDelegate;
 	self.callback = requestSelector;
 	// the URL of the Status request we intend to send
+	if (latitude == nil) {
+		latitude = @"";
+	}
+	
+	if (longitude == nil) {
+		longitude = @"";
+	}
+	
 	NSString *encodedStatus = [status stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-	NSURL *url = [NSURL URLWithString:[@"http://phonestat.com/statuses?format-json&user_id=5&status[type]=CustomStatus&status[stat]=" stringByAppendingString:encodedStatus]];
+	NSString *withLocation = [status stringByAppendingFormat:@"&status[latitude]=%@&status[longitude]=%@", latitude, longitude];
+	NSURL *url = [NSURL URLWithString:[@"http://phonestat.com/statuses?format=json&user_id=5&status[type]=CustomStatus&status[stat]=" stringByAppendingString:withLocation]];
 	requestBody = [NSString	stringWithFormat:@"status=%@", status];
 	[self request:url];
 }
