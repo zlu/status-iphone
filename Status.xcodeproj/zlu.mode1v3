@@ -317,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>StatusRequest.h</string>
+								<string>StatusViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,24 +325,24 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>StatusRequest.h</string>
+										<string>StatusViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>28CD4B0410D46F4E003F1A6A</string>
+										<string>28CD4B4310D48885003F1A6A</string>
 										<key>history</key>
 										<array>
 											<string>28C502B310D2FA7500F9816A</string>
 											<string>28C502E310D2FCFC00F9816A</string>
 											<string>28C502E810D31D9C00F9816A</string>
-											<string>28CD49F710D3EEED003F1A6A</string>
 											<string>28CD4A1910D3F0DD003F1A6A</string>
 											<string>28CD4A7910D42820003F1A6A</string>
 											<string>28CD4A7A10D42820003F1A6A</string>
-											<string>28CD4AEE10D46E85003F1A6A</string>
-											<string>28CD4AEF10D46E85003F1A6A</string>
-											<string>28CD4AFE10D46F00003F1A6A</string>
-											<string>28CD4AFF10D46F00003F1A6A</string>
+											<string>28CD4B1510D48699003F1A6A</string>
+											<string>28CD4B2C10D4876B003F1A6A</string>
+											<string>28CD4B3E10D48870003F1A6A</string>
+											<string>28CD4B3F10D48870003F1A6A</string>
+											<string>28CD4B4010D48870003F1A6A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -540,11 +540,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>28CD4B0510D46F4E003F1A6A</string>
+		<string>28CD4B4210D48870003F1A6A</string>
 		<string>28CD49E010D3E97D003F1A6A</string>
 		<string>28CD49DB10D3E96A003F1A6A</string>
-		<string>/Users/zlu/projects/status-iphone/Status.xcodeproj</string>
 		<string>28C5017610D2E14900F9816A</string>
+		<string>/Users/zlu/projects/status-iphone/Status.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 	</array>
@@ -565,14 +565,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>StatusRequest.m</string>
+								<string>StatusViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -589,6 +587,8 @@
 							<string>773pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -641,7 +641,7 @@
 			<key>WindowToolGUID</key>
 			<string>28C5017610D2E14900F9816A</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -724,10 +724,10 @@
 									<key>Frame</key>
 									<string>{{610, 0}, {734, 515}}</string>
 									<key>RubberWindowFrame</key>
-									<string>966 209 1344 1027 0 0 2560 1418 </string>
+									<string>1070 391 1344 1027 0 0 2560 1418 </string>
 								</dict>
 								<key>RubberWindowFrame</key>
-								<string>966 209 1344 1027 0 0 2560 1418 </string>
+								<string>1070 391 1344 1027 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugSessionModule</string>
@@ -761,7 +761,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
 			<key>WindowString</key>
-			<string>966 209 1344 1027 0 0 2560 1418 </string>
+			<string>1070 391 1344 1027 0 0 2560 1418 </string>
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>

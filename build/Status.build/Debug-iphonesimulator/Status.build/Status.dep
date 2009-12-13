@@ -1,7 +1,7 @@
-ceaf2a5b0b76beb2e3c266b362bbf5a3 7ba31bda29b63b1799f53a6ca8c424db ffffffffffffffffffffffffffffffff 238 /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app
+ceaf2a5b0b76d99ae3c266b362bbf386 7ba31bda29b63b1799f53a6ca8c424db ffffffffffffffffffffffffffffffff 238 /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app
 00000000000000000000000000000000 426d06d13da21ef2da9bfe14af3b08ce ffffffffffffffffffffffffffffffff 102 /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app.dSYM
-c59980e470083af3a0fec916dbc74248 9281e2be47d29eca7d4b8a0ecdee996f ffffffffffffffffffffffffffffffff 75960 /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status
-3c2cddd1c970971e4964eb3e62dbe7d1 30fe0f96327cd83fd25a2cf10702666d ffffffffffffffffffffffffffffffff 58936 /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusViewController.o
+c59980e470085ddba0fec916dbc7446d 9281e2be47d29eca7d4b8a0ecdee996f ffffffffffffffffffffffffffffffff 75992 /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status
+3c2cddd1c970f0364964eb3e62dbe1f4 30fe0f96327cd83fd25a2cf10702666d ffffffffffffffffffffffffffffffff 59888 /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusViewController.o
 3c2cddd1825320ce4964eb3e62dbd797 a356d3ce123e7a44ba5e81880612a151 ffffffffffffffffffffffffffffffff 19180 /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusRequest.o
 3c2cddd183cd4ecc4964eb3e62dbce39 0278e476b0495ff40e285133525839fa ffffffffffffffffffffffffffffffff 22048 /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/SBJsonWriter.o
 3c2cddd183cd4ecc4964eb3e62dbfb3e b8005cf7ef36e02a410ea3a7a070b470 ffffffffffffffffffffffffffffffff 29828 /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/SBJsonParser.o

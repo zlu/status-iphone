@@ -78,8 +78,8 @@
 	};
 	28C5016610D2DEF100F9816A /* StatusView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1139, 559}}";
-			sepNavSelRange = "{359, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1350, 967}}";
+			sepNavSelRange = "{330, 0}";
 			sepNavVisRange = "{0, 679}";
 		};
 	};
@@ -92,17 +92,17 @@
 	};
 	28C5017110D2E11F00F9816A /* StatusViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1350, 969}}";
-			sepNavSelRange = "{821, 15}";
+			sepNavIntBoundsRect = "{{0, 0}, {1350, 967}}";
+			sepNavSelRange = "{414, 0}";
 			sepNavVisRange = "{0, 1227}";
 			sepNavWindowFrame = "{{284, 213}, {1022, 821}}";
 		};
 	};
 	28C5017210D2E11F00F9816A /* StatusViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1350, 3645}}";
-			sepNavSelRange = "{5482, 0}";
-			sepNavVisRange = "{4605, 2828}";
+			sepNavIntBoundsRect = "{{0, 0}, {1350, 3780}}";
+			sepNavSelRange = "{6176, 0}";
+			sepNavVisRange = "{4962, 2902}";
 			sepNavWindowFrame = "{{130, 247}, {1022, 821}}";
 		};
 	};
@@ -554,9 +554,9 @@
 	};
 	28C5022E10D2F0FD00F9816A /* StatusRequest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1380, 1530}}";
-			sepNavSelRange = "{1473, 0}";
-			sepNavVisRange = "{0, 2346}";
+			sepNavIntBoundsRect = "{{0, 0}, {1380, 1515}}";
+			sepNavSelRange = "{1207, 0}";
+			sepNavVisRange = "{34, 2334}";
 		};
 	};
 	28C5023210D2F19100F9816A /* PBXTextBookmark */ = {
@@ -674,7 +674,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 123";
 		rLen = 0;
-		rLoc = 4463;
+		rLoc = 4462;
 		rType = 0;
 		vrLen = 1528;
 		vrLoc = 1989;
@@ -1513,7 +1513,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 151";
 		rLen = 0;
-		rLoc = 9102;
+		rLoc = 9643;
 		rType = 0;
 		vrLen = 913;
 		vrLoc = 3206;
@@ -1523,7 +1523,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 137";
 		rLen = 0;
-		rLoc = 4540;
+		rLoc = 4539;
 		rType = 0;
 		vrLen = 899;
 		vrLoc = 3220;
@@ -1698,7 +1698,7 @@
 		vrLen = 1837;
 		vrLoc = 292;
 	};
-	28C503CB10D333F400F9816A /* StatusViewController.m:140 */ = {
+	28C503CB10D333F400F9816A /* StatusViewController.m:139 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -1710,9 +1710,9 @@
 		functionName = "-textFieldShouldReturn:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 140;
+		lineNumber = 139;
 		location = Status;
-		modificationTime = 282357505.970774;
+		modificationTime = 282364018.544644;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -1751,7 +1751,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 140";
 		rLen = 0;
-		rLoc = 4859;
+		rLoc = 4858;
 		rType = 0;
 		vrLen = 898;
 		vrLoc = 3221;
@@ -1761,7 +1761,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 140";
 		rLen = 0;
-		rLoc = 4859;
+		rLoc = 4858;
 		rType = 0;
 		vrLen = 898;
 		vrLoc = 3221;
@@ -1771,7 +1771,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 141";
 		rLen = 0;
-		rLoc = 4872;
+		rLoc = 4871;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 2961;
@@ -1831,7 +1831,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 141";
 		rLen = 0;
-		rLoc = 4872;
+		rLoc = 4871;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 3016;
@@ -1961,7 +1961,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 149";
 		rLen = 0;
-		rLoc = 4960;
+		rLoc = 4959;
 		rType = 0;
 		vrLen = 974;
 		vrLoc = 3666;
@@ -1971,7 +1971,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 149";
 		rLen = 0;
-		rLoc = 4960;
+		rLoc = 4959;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 3666;
@@ -1981,7 +1981,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 149";
 		rLen = 0;
-		rLoc = 4960;
+		rLoc = 4959;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 3666;
@@ -1991,7 +1991,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 149";
 		rLen = 0;
-		rLoc = 4960;
+		rLoc = 4959;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 3666;
@@ -2001,7 +2001,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 149";
 		rLen = 0;
-		rLoc = 4960;
+		rLoc = 4959;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 3666;
@@ -2151,7 +2151,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 149";
 		rLen = 0;
-		rLoc = 4960;
+		rLoc = 4959;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 3666;
@@ -2201,7 +2201,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 147";
 		rLen = 0;
-		rLoc = 4907;
+		rLoc = 4906;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 3666;
@@ -2211,7 +2211,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 147";
 		rLen = 0;
-		rLoc = 4907;
+		rLoc = 4906;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 3666;
@@ -2221,7 +2221,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 147";
 		rLen = 0;
-		rLoc = 4907;
+		rLoc = 4906;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 3666;
@@ -2261,7 +2261,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 149";
 		rLen = 0;
-		rLoc = 4960;
+		rLoc = 4959;
 		rType = 0;
 		vrLen = 1013;
 		vrLoc = 3616;
@@ -2271,7 +2271,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 156";
 		rLen = 0;
-		rLoc = 4960;
+		rLoc = 4959;
 		rType = 0;
 		vrLen = 1043;
 		vrLoc = 4416;
@@ -2302,7 +2302,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 237;
+		rLoc = 248;
 		rType = 1;
 	};
 	28CD4A2B10D3F205003F1A6A /* PBXTextBookmark */ = {
@@ -2310,7 +2310,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 141";
 		rLen = 0;
-		rLoc = 4744;
+		rLoc = 4743;
 		rType = 0;
 		vrLen = 1325;
 		vrLoc = 3826;
@@ -2420,7 +2420,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 141";
 		rLen = 0;
-		rLoc = 4744;
+		rLoc = 4743;
 		rType = 0;
 		vrLen = 1330;
 		vrLoc = 3826;
@@ -2440,7 +2440,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 156";
 		rLen = 0;
-		rLoc = 4960;
+		rLoc = 4959;
 		rType = 0;
 		vrLen = 1895;
 		vrLoc = 3566;
@@ -2510,7 +2510,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 141";
 		rLen = 0;
-		rLoc = 4744;
+		rLoc = 4743;
 		rType = 0;
 		vrLen = 1330;
 		vrLoc = 3826;
@@ -2540,34 +2540,17 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 222";
 		rLen = 0;
-		rLoc = 8579;
+		rLoc = 9120;
 		rType = 0;
 		vrLen = 3322;
 		vrLoc = 5449;
-	};
-	28CD4A8510D4559B003F1A6A /* StatusViewController.m:159 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
-		hitCount = 1;
-		ignoreCount = 0;
-		lineNumber = 159;
-		location = Status;
-		modificationTime = 282357509.452982;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
 	};
 	28CD4A8F10D45663003F1A6A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 161";
 		rLen = 0;
-		rLoc = 5279;
+		rLoc = 5278;
 		rType = 0;
 		vrLen = 2132;
 		vrLoc = 3957;
@@ -2577,7 +2560,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 160";
 		rLen = 0;
-		rLoc = 5279;
+		rLoc = 5278;
 		rType = 0;
 		vrLen = 2060;
 		vrLoc = 3535;
@@ -2587,7 +2570,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 160";
 		rLen = 0;
-		rLoc = 5097;
+		rLoc = 5096;
 		rType = 0;
 		vrLen = 2056;
 		vrLoc = 3354;
@@ -2647,7 +2630,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 225";
 		rLen = 0;
-		rLoc = 8249;
+		rLoc = 8790;
 		rType = 0;
 		vrLen = 2833;
 		vrLoc = 6334;
@@ -2657,7 +2640,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 225";
 		rLen = 0;
-		rLoc = 8249;
+		rLoc = 8790;
 		rType = 0;
 		vrLen = 1520;
 		vrLoc = 0;
@@ -2678,7 +2661,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 219;
+		rLoc = 230;
 		rType = 1;
 	};
 	28CD4AC510D4698A003F1A6A /* PBXTextBookmark */ = {
@@ -2686,7 +2669,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 219";
 		rLen = 0;
-		rLoc = 8204;
+		rLoc = 8745;
 		rType = 0;
 		vrLen = 3338;
 		vrLoc = 5625;
@@ -2697,7 +2680,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 219;
+		rLoc = 230;
 		rType = 1;
 	};
 	28CD4ACC10D46A1F003F1A6A /* PBXTextBookmark */ = {
@@ -2705,7 +2688,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 187";
 		rLen = 0;
-		rLoc = 6300;
+		rLoc = 6841;
 		rType = 0;
 		vrLen = 2801;
 		vrLoc = 6162;
@@ -2715,7 +2698,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 158";
 		rLen = 0;
-		rLoc = 5279;
+		rLoc = 5278;
 		rType = 0;
 		vrLen = 2074;
 		vrLoc = 4174;
@@ -2755,7 +2738,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 158";
 		rLen = 0;
-		rLoc = 5279;
+		rLoc = 5278;
 		rType = 0;
 		vrLen = 2217;
 		vrLoc = 4305;
@@ -2765,7 +2748,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 166";
 		rLen = 0;
-		rLoc = 5484;
+		rLoc = 5483;
 		rType = 0;
 		vrLen = 2828;
 		vrLoc = 4605;
@@ -2775,7 +2758,7 @@
 		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
 		name = "StatusViewController.m: 166";
 		rLen = 0;
-		rLoc = 5484;
+		rLoc = 5483;
 		rType = 0;
 		vrLen = 2828;
 		vrLoc = 4605;
@@ -2809,6 +2792,264 @@
 		vrLen = 903;
 		vrLoc = 0;
 	};
+	28CD4B0610D48302003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5022D10D2F0FD00F9816A /* StatusRequest.h */;
+		name = "StatusRequest.h: 28";
+		rLen = 0;
+		rLoc = 698;
+		rType = 0;
+		vrLen = 903;
+		vrLoc = 0;
+	};
+	28CD4B0D10D484A0003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
+		name = "StatusViewController.m: 188";
+		rLen = 0;
+		rLoc = 6841;
+		rType = 0;
+		vrLen = 2801;
+		vrLoc = 6305;
+	};
+	28CD4B0E10D484A0003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5022D10D2F0FD00F9816A /* StatusRequest.h */;
+		name = "StatusRequest.h: 28";
+		rLen = 0;
+		rLoc = 778;
+		rType = 0;
+		vrLen = 903;
+		vrLoc = 0;
+	};
+	28CD4B0F10D484A0003F1A6A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected '{' before '(' token";
+		fRef = 28C5022E10D2F0FD00F9816A /* StatusRequest.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 26;
+		rType = 1;
+	};
+	28CD4B1010D484A0003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5022E10D2F0FD00F9816A /* StatusRequest.m */;
+		name = "StatusRequest.m: 27";
+		rLen = 0;
+		rLoc = 743;
+		rType = 0;
+		vrLen = 1713;
+		vrLoc = 135;
+	};
+	28CD4B1510D48699003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5022D10D2F0FD00F9816A /* StatusRequest.h */;
+		name = "StatusRequest.h: 28";
+		rLen = 0;
+		rLoc = 698;
+		rType = 0;
+		vrLen = 903;
+		vrLoc = 0;
+	};
+	28CD4B1610D48699003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5017110D2E11F00F9816A /* StatusViewController.h */;
+		name = "StatusViewController.h: 18";
+		rLen = 0;
+		rLoc = 429;
+		rType = 0;
+		vrLen = 1227;
+		vrLoc = 0;
+	};
+	28CD4B1710D48699003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5022E10D2F0FD00F9816A /* StatusRequest.m */;
+		name = "StatusRequest.m: 42";
+		rLen = 23;
+		rLoc = 1233;
+		rType = 0;
+		vrLen = 2334;
+		vrLoc = 34;
+	};
+	28CD4B1810D48699003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
+		name = "StatusViewController.m: 175";
+		rLen = 0;
+		rLoc = 6095;
+		rType = 0;
+		vrLen = 2681;
+		vrLoc = 4739;
+	};
+	28CD4B1910D48699003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
+		name = "StatusViewController.m: 180";
+		rLen = 0;
+		rLoc = 6407;
+		rType = 0;
+		vrLen = 2712;
+		vrLoc = 4857;
+	};
+	28CD4B1B10D486C6003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5022E10D2F0FD00F9816A /* StatusRequest.m */;
+		name = "StatusRequest.m: 27";
+		rLen = 0;
+		rLoc = 743;
+		rType = 0;
+		vrLen = 1938;
+		vrLoc = 135;
+	};
+	28CD4B1C10D486C6003F1A6A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'indexPath' undeclared (first use in this function)";
+		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 180;
+		rType = 1;
+	};
+	28CD4B1D10D486C6003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
+		name = "StatusViewController.m: 182";
+		rLen = 0;
+		rLoc = 6407;
+		rType = 0;
+		vrLen = 1901;
+		vrLoc = 5045;
+	};
+	28CD4B1E10D486C7003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
+		name = "StatusViewController.m: 182";
+		rLen = 0;
+		rLoc = 6407;
+		rType = 0;
+		vrLen = 1901;
+		vrLoc = 5045;
+	};
+	28CD4B2310D486EA003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
+		name = "StatusViewController.m: 176";
+		rLen = 0;
+		rLoc = 6206;
+		rType = 0;
+		vrLen = 2642;
+		vrLoc = 4857;
+	};
+	28CD4B2410D486EA003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
+		name = "StatusViewController.m: 176";
+		rLen = 0;
+		rLoc = 6206;
+		rType = 0;
+		vrLen = 2659;
+		vrLoc = 4872;
+	};
+	28CD4B2810D48749003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
+		name = "StatusViewController.m: 178";
+		rLen = 0;
+		rLoc = 6206;
+		rType = 0;
+		vrLen = 2713;
+		vrLoc = 4874;
+	};
+	28CD4B2C10D4876B003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5022E10D2F0FD00F9816A /* StatusRequest.m */;
+		name = "StatusRequest.m: 42";
+		rLen = 0;
+		rLoc = 1207;
+		rType = 0;
+		vrLen = 2334;
+		vrLoc = 34;
+	};
+	28CD4B2D10D4876B003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
+		name = "StatusViewController.m: 178";
+		rLen = 0;
+		rLoc = 6206;
+		rType = 0;
+		vrLen = 2712;
+		vrLoc = 4875;
+	};
+	28CD4B2E10D4876B003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
+		name = "StatusViewController.m: 177";
+		rLen = 0;
+		rLoc = 6046;
+		rType = 0;
+		vrLen = 2796;
+		vrLoc = 4912;
+	};
+	28CD4B3410D4880D003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
+		name = "StatusViewController.m: 177";
+		rLen = 0;
+		rLoc = 6046;
+		rType = 0;
+		vrLen = 2966;
+		vrLoc = 4961;
+	};
+	28CD4B3E10D48870003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5017110D2E11F00F9816A /* StatusViewController.h */;
+		name = "StatusViewController.h: 16";
+		rLen = 0;
+		rLoc = 414;
+		rType = 0;
+		vrLen = 1227;
+		vrLoc = 0;
+	};
+	28CD4B3F10D48870003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5016610D2DEF100F9816A /* StatusView.h */;
+		name = "StatusView.h: 16";
+		rLen = 0;
+		rLoc = 330;
+		rType = 0;
+		vrLen = 679;
+		vrLoc = 0;
+	};
+	28CD4B4010D48870003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
+		name = "StatusViewController.m: 177";
+		rLen = 0;
+		rLoc = 6046;
+		rType = 0;
+		vrLen = 2892;
+		vrLoc = 4961;
+	};
+	28CD4B4110D48870003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
+		name = "StatusViewController.m: 180";
+		rLen = 0;
+		rLoc = 6176;
+		rType = 0;
+		vrLen = 2902;
+		vrLoc = 4962;
+	};
+	28CD4B4310D48885003F1A6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C5017210D2E11F00F9816A /* StatusViewController.m */;
+		name = "StatusViewController.m: 180";
+		rLen = 0;
+		rLoc = 6176;
+		rType = 0;
+		vrLen = 2902;
+		vrLoc = 4962;
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 28C5015F10D2DE9600F9816A /* Status */;
@@ -2818,8 +3059,7 @@
 			1D6058900D05DD3D006BFB54 /* Status */,
 		);
 		breakpoints = (
-			28C503CB10D333F400F9816A /* StatusViewController.m:140 */,
-			28CD4A8510D4559B003F1A6A /* StatusViewController.m:159 */,
+			28C503CB10D333F400F9816A /* StatusViewController.m:139 */,
 		);
 		codeSenseManager = 28C5016510D2DEB400F9816A /* Code sense */;
 		executables = (
@@ -3166,6 +3406,32 @@
 			28CD4AFF10D46F00003F1A6A /* XCBuildMessageTextBookmark */ = 28CD4AFF10D46F00003F1A6A /* XCBuildMessageTextBookmark */;
 			28CD4B0010D46F00003F1A6A /* PBXTextBookmark */ = 28CD4B0010D46F00003F1A6A /* PBXTextBookmark */;
 			28CD4B0410D46F4E003F1A6A /* PBXTextBookmark */ = 28CD4B0410D46F4E003F1A6A /* PBXTextBookmark */;
+			28CD4B0610D48302003F1A6A /* PBXTextBookmark */ = 28CD4B0610D48302003F1A6A /* PBXTextBookmark */;
+			28CD4B0D10D484A0003F1A6A /* PBXTextBookmark */ = 28CD4B0D10D484A0003F1A6A /* PBXTextBookmark */;
+			28CD4B0E10D484A0003F1A6A /* PBXTextBookmark */ = 28CD4B0E10D484A0003F1A6A /* PBXTextBookmark */;
+			28CD4B0F10D484A0003F1A6A /* XCBuildMessageTextBookmark */ = 28CD4B0F10D484A0003F1A6A /* XCBuildMessageTextBookmark */;
+			28CD4B1010D484A0003F1A6A /* PBXTextBookmark */ = 28CD4B1010D484A0003F1A6A /* PBXTextBookmark */;
+			28CD4B1510D48699003F1A6A /* PBXTextBookmark */ = 28CD4B1510D48699003F1A6A /* PBXTextBookmark */;
+			28CD4B1610D48699003F1A6A /* PBXTextBookmark */ = 28CD4B1610D48699003F1A6A /* PBXTextBookmark */;
+			28CD4B1710D48699003F1A6A /* PBXTextBookmark */ = 28CD4B1710D48699003F1A6A /* PBXTextBookmark */;
+			28CD4B1810D48699003F1A6A /* PBXTextBookmark */ = 28CD4B1810D48699003F1A6A /* PBXTextBookmark */;
+			28CD4B1910D48699003F1A6A /* PBXTextBookmark */ = 28CD4B1910D48699003F1A6A /* PBXTextBookmark */;
+			28CD4B1B10D486C6003F1A6A /* PBXTextBookmark */ = 28CD4B1B10D486C6003F1A6A /* PBXTextBookmark */;
+			28CD4B1C10D486C6003F1A6A /* XCBuildMessageTextBookmark */ = 28CD4B1C10D486C6003F1A6A /* XCBuildMessageTextBookmark */;
+			28CD4B1D10D486C6003F1A6A /* PBXTextBookmark */ = 28CD4B1D10D486C6003F1A6A /* PBXTextBookmark */;
+			28CD4B1E10D486C7003F1A6A /* PBXTextBookmark */ = 28CD4B1E10D486C7003F1A6A /* PBXTextBookmark */;
+			28CD4B2310D486EA003F1A6A /* PBXTextBookmark */ = 28CD4B2310D486EA003F1A6A /* PBXTextBookmark */;
+			28CD4B2410D486EA003F1A6A /* PBXTextBookmark */ = 28CD4B2410D486EA003F1A6A /* PBXTextBookmark */;
+			28CD4B2810D48749003F1A6A /* PBXTextBookmark */ = 28CD4B2810D48749003F1A6A /* PBXTextBookmark */;
+			28CD4B2C10D4876B003F1A6A /* PBXTextBookmark */ = 28CD4B2C10D4876B003F1A6A /* PBXTextBookmark */;
+			28CD4B2D10D4876B003F1A6A /* PBXTextBookmark */ = 28CD4B2D10D4876B003F1A6A /* PBXTextBookmark */;
+			28CD4B2E10D4876B003F1A6A /* PBXTextBookmark */ = 28CD4B2E10D4876B003F1A6A /* PBXTextBookmark */;
+			28CD4B3410D4880D003F1A6A /* PBXTextBookmark */ = 28CD4B3410D4880D003F1A6A /* PBXTextBookmark */;
+			28CD4B3E10D48870003F1A6A /* PBXTextBookmark */ = 28CD4B3E10D48870003F1A6A /* PBXTextBookmark */;
+			28CD4B3F10D48870003F1A6A /* PBXTextBookmark */ = 28CD4B3F10D48870003F1A6A /* PBXTextBookmark */;
+			28CD4B4010D48870003F1A6A /* PBXTextBookmark */ = 28CD4B4010D48870003F1A6A /* PBXTextBookmark */;
+			28CD4B4110D48870003F1A6A /* PBXTextBookmark */ = 28CD4B4110D48870003F1A6A /* PBXTextBookmark */;
+			28CD4B4310D48885003F1A6A /* PBXTextBookmark */ = 28CD4B4310D48885003F1A6A /* PBXTextBookmark */;
 		};
 		sourceControlManager = 28C5016410D2DEB400F9816A /* Source Control */;
 		userBuildSettings = {

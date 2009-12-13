@@ -1,7 +1,7 @@
 TStatus
 v7
 r0
-t282357582.148850
+t282364016.406052
 cCheck dependencies
 cProcessInfoPlistFile /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Info.plist Status-Info.plist
 cCompileXIB /Users/zlu/projects/status-iphone/MainWindow.xib
@@ -485,9 +485,9 @@ i<CoreLocation/CoreLocation.h>
 i"StatusView.h"
 
 N/Users/zlu/projects/status-iphone/Classes/StatusViewController.m
-c000000004B2437C70000000000002394
-t1260664775
-s9108
+c000000004B2450EF00000000000025B1
+t1260671215
+s9649
 i"StatusViewController.h"
 i"StatusView.h"
 i"StatusRequest.h"
@@ -506,11 +506,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app
-t1260664782
+t1260671216
 s238
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app.dSYM
-t1260664782
+t1260671216
 s102
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Info.plist
@@ -526,8 +526,8 @@ t1260627746
 s8
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status
-t1260664782
-s75960
+t1260671216
+s75992
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/icon.png
 t1260627746
@@ -575,8 +575,8 @@ t1260658912
 s39788
 
 N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusViewController.o
-t1260664782
-s58936
+t1260671216
+s59888
 
 N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/main.o
 t1260627778
@@ -686,7 +686,7 @@ s913
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies282357581#282357581#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies282364016#282364016#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/NSObject+SBJSON-6EADD9B19C17ED56.o /Users/zlu/projects/Status/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -1008,8 +1008,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@65"Compile /Users/zlu/projects/Status/Classes/StatusViewController.m282296442#282296442#0(0"0(0#0#57"/Users/zlu/projects/Status/Classes/StatusViewController.m4300885448#1747"    cd /Users/zlu/projects/Status    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/Status/build/Debug-iphonesimulator -I/Users/zlu/projects/Status/build/Debug-iphonesimulator/include -I/Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/DerivedSources/i386 -I/Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-dfsvbtqheakvgzdbyijnrrplqgyr/Status_Prefix.pch -c /Users/zlu/projects/Status/Classes/StatusViewController.m -o /Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusViewController.o0#
 
 CCompileC build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusViewController.o /Users/zlu/projects/status-iphone/Classes/StatusViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282357581.954976
-e282357582.097950
+s282364016.228740
+e282364016.362101
 r1
 xCompileC
 xbuild/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusViewController.o
@@ -1019,16 +1019,16 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m: In function '-[StatusViewController locationManager:didUpdateToLocation:fromLocation:]':
-o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:220: warning: 'StatusViewController' may not respond to '-stopUpdatingLocation:'
-o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:220: warning: (Messages without a matching method signature
-o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:220: warning: will be assumed to return 'id' and accept
-o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:220: warning: '...' as arguments.)
+o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:231: warning: 'StatusViewController' may not respond to '-stopUpdatingLocation:'
+o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:231: warning: (Messages without a matching method signature
+o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:231: warning: will be assumed to return 'id' and accept
+o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:231: warning: '...' as arguments.)
 o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m: In function '-[StatusViewController locationManager:didFailWithError:]':
-o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:234: warning: 'StatusViewController' may not respond to '-stopUpdatingLocation:'
+o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:245: warning: 'StatusViewController' may not respond to '-stopUpdatingLocation:'
 o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m: At top level:
-o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:238: warning: property 'tableView' requires method '-tableView' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:238: warning: property 'tableView' requires the method 'setTableView:' to be defined - use @synthesize, @dynamic or provide a method implementation
-lSLF07#2@72"Compile /Users/zlu/projects/status-iphone/Classes/StatusViewController.m282357581#282357582#0(1431"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m: In function '-[StatusViewController locationManager:didUpdateToLocation:fromLocation:]':/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:220: warning: 'StatusViewController' may not respond to '-stopUpdatingLocation:'/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:220: warning: (Messages without a matching method signature/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:220: warning: will be assumed to return 'id' and accept/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:220: warning: '...' as arguments.)/Users/zlu/projects/status-iphone/Classes/StatusViewController.m: In function '-[StatusViewController locationManager:didFailWithError:]':/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:234: warning: 'StatusViewController' may not respond to '-stopUpdatingLocation:'/Users/zlu/projects/status-iphone/Classes/StatusViewController.m: At top level:/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:238: warning: property 'tableView' requires method '-tableView' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:238: warning: property 'tableView' requires the method 'setTableView:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@66"'StatusViewController' may not respond to '-stopUpdatingLocation:'282357582#155#146#0(6@64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m282357575#220#0#220#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282357582#301#125#0(6@64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m282357575#220#0#220#0#0"0(22@66"'StatusViewController' may not respond to '-stopUpdatingLocation:'282357582#786#146#0(6@64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m282357575#234#0#234#0#26"'*' may not respond to '*'0(23@13"At top level:282357582#932#80#0(6@64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m282357575#0#0#0#0#0"0(22@126"Property 'tableView' requires method '-tableView' to be defined - use @synthesize, @dynamic or provide a method implementation282357582#1012#206#0(6@64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m282357575#238#0#238#0#0"0(22@133"Property 'tableView' requires the method 'setTableView:' to be defined - use @synthesize, @dynamic or provide a method implementation282357582#1218#213#0(6@64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m282357575#238#0#238#0#0"0(0#0#64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m4300885448#1824"    cd /Users/zlu/projects/status-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator -I/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/include -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/DerivedSources/i386 -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/DerivedSources -include /var/folders/PG/PGoOWMdSG88PLrfW+jWzJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Status_Prefix-hfvduaieorrdniaelpeecnuzlmcy/Status_Prefix.pch -c /Users/zlu/projects/status-iphone/Classes/StatusViewController.m -o /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusViewController.o0#
+o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:249: warning: property 'tableView' requires method '-tableView' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:249: warning: property 'tableView' requires the method 'setTableView:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@72"Compile /Users/zlu/projects/status-iphone/Classes/StatusViewController.m282364016#282364016#0(1431"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m: In function '-[StatusViewController locationManager:didUpdateToLocation:fromLocation:]':/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:231: warning: 'StatusViewController' may not respond to '-stopUpdatingLocation:'/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:231: warning: (Messages without a matching method signature/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:231: warning: will be assumed to return 'id' and accept/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:231: warning: '...' as arguments.)/Users/zlu/projects/status-iphone/Classes/StatusViewController.m: In function '-[StatusViewController locationManager:didFailWithError:]':/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:245: warning: 'StatusViewController' may not respond to '-stopUpdatingLocation:'/Users/zlu/projects/status-iphone/Classes/StatusViewController.m: At top level:/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:249: warning: property 'tableView' requires method '-tableView' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:249: warning: property 'tableView' requires the method 'setTableView:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@66"'StatusViewController' may not respond to '-stopUpdatingLocation:'282364016#155#146#0(6@64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m282364015#231#0#231#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282364016#301#125#0(6@64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m282364015#231#0#231#0#0"0(22@66"'StatusViewController' may not respond to '-stopUpdatingLocation:'282364016#786#146#0(6@64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m282364015#245#0#245#0#26"'*' may not respond to '*'0(23@13"At top level:282364016#932#80#0(6@64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m282364015#0#0#0#0#0"0(22@126"Property 'tableView' requires method '-tableView' to be defined - use @synthesize, @dynamic or provide a method implementation282364016#1012#206#0(6@64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m282364015#249#0#249#0#0"0(22@133"Property 'tableView' requires the method 'setTableView:' to be defined - use @synthesize, @dynamic or provide a method implementation282364016#1218#213#0(6@64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m282364015#249#0#249#0#0"0(0#0#64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m4300885448#1824"    cd /Users/zlu/projects/status-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator -I/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/include -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/DerivedSources/i386 -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/DerivedSources -include /var/folders/PG/PGoOWMdSG88PLrfW+jWzJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Status_Prefix-hfvduaieorrdniaelpeecnuzlmcy/Status_Prefix.pch -c /Users/zlu/projects/status-iphone/Classes/StatusViewController.m -o /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusViewController.o0#
 
 CCompileC build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/main.o /Users/zlu/projects/Status/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282255500.811294
@@ -1086,13 +1086,13 @@ x/Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app/Status
 lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Status.app.dSYM build/Debug-iphonesimulator/Status.app/Status282296442#282296442#0(0"0(0#0#72"/Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app/Status4300885448#344"    cd /Users/zlu/projects/Status    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app/Status -o /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app.dSYM0#
 
 CGenerateDSYMFile /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app.dSYM /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status
-s282357582.124572
-e282357582.146678
+s282364016.388248
+e282364016.403739
 r1
 xGenerateDSYMFile
 x/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app.dSYM
 x/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status
-lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Status.app.dSYM build/Debug-iphonesimulator/Status.app/Status282357582#282357582#0(0"0(0#0#79"/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status4300885448#365"    cd /Users/zlu/projects/status-iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status -o /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app.dSYM0#
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Status.app.dSYM build/Debug-iphonesimulator/Status.app/Status282364016#282364016#0(0"0(0#0#79"/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status4300885448#365"    cd /Users/zlu/projects/status-iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status -o /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app.dSYM0#
 
 CLd /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app/Status normal i386
 s282296442.233013
@@ -1105,14 +1105,14 @@ xi386
 lSLF07#2@77"Link /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app/Status282296442#282296442#0(0"0(0#0#0"4300885448#799"    cd /Users/zlu/projects/Status    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/zlu/projects/Status/build/Debug-iphonesimulator -F/Users/zlu/projects/Status/build/Debug-iphonesimulator -filelist /Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/Status.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app/Status0#
 
 CLd /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status normal i386
-s282357582.098021
-e282357582.124497
+s282364016.362174
+e282364016.388163
 r1
 xLd
 x/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status
 xnormal
 xi386
-lSLF07#2@84"Link /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status282357582#282357582#0(0"0(0#0#0"4300885448#858"    cd /Users/zlu/projects/status-iphone    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator -F/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator -filelist /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/Status.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -o /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status0#
+lSLF07#2@84"Link /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status282364016#282364016#0(0"0(0#0#0"4300885448#858"    cd /Users/zlu/projects/status-iphone    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator -F/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator -filelist /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/Status.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -o /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status0#
 
 CProcessInfoPlistFile /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app/Info.plist Status-Info.plist
 s282262780.219611
@@ -1161,10 +1161,10 @@ x/Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app
 lSLF07#2@71"Touch /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app282296442#282296442#0(0"0(0#0#0"4300885448#253"    cd /Users/zlu/projects/Status    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app0#
 
 CTouch /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app
-s282357582.146749
-e282357582.148813
+s282364016.403815
+e282364016.406016
 r1
 xTouch
 x/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app
-lSLF07#2@78"Touch /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app282357582#282357582#0(0"0(0#0#0"4300885448#267"    cd /Users/zlu/projects/status-iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app0#
+lSLF07#2@78"Touch /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app282364016#282364016#0(0"0(0#0#0"4300885448#267"    cd /Users/zlu/projects/status-iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app0#
 

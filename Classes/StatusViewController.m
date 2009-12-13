@@ -124,8 +124,7 @@
 	SBJSON *jsonParser = [SBJSON new];
 	contactStatus = [jsonParser objectWithString:status];
 	NSMutableString *stat = [NSMutableString stringWithString:@"Friend Status:\n"];
-	for (int i=0; i<[contactStatus count]; i++) {
-		
+	for (int i=0; i<[contactStatus count]; i++) {		
 		NSString * s = [contactStatus objectAtIndex:i];
 		[stat appendFormat:@"%@\n", s];
 		[contactStats addObject:s];
@@ -171,8 +170,20 @@
 	NSString *status = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
 	NSLog(@"Status update callback %@", status);
 	
-//	SBJSON *jsonParser = [SBJSON new];
-//	contactStatus = [jsonParser objectWithString:status];
+	SBJSON *jsonParser = [SBJSON new];
+	NSDictionary *myStatusDictionary = [[jsonParser objectWithString:status] objectForKey:@"custom_status"];
+	NSString *stat = [myStatusDictionary objectForKey:@"stat"];
+	NSString *business = [myStatusDictionary objectForKey:@"business"];
+	NSString *myStatus = [stat stringByAppendingFormat:@" at %@", business];
+	NSLog(@"Combined status %@", myStatus);
+	
+	self.statusView.myStatusView.text = myStatus;
+//	NSDictionary *dict = [contactStats objectAtIndex:indexPath.row];
+//	for(id key in dict) {
+//		NSString *stat = [[dict objectForKey:key] objectForKey:@"stat"];
+//		cell.textLabel.text = stat;
+//	}
+	
 //	NSMutableString *stat = [NSMutableString stringWithString:@"Friend Status:\n"];
 //	for (int i=0; i<[contactStatus count]; i++) {
 //		
