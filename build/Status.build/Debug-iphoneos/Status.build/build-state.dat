@@ -1,30 +1,30 @@
 TStatus
 v7
 r0
-t282295782.837770
+t282364937.812012
 cCheck dependencies
 cCpResource build/Debug-iphoneos/Status.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/Info.plist Status-Info.plist
-cCompileXIB /Users/zlu/projects/Status/MainWindow.xib
-cCopyPNGFile /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/icon.png icon.png
-cProcessPCH /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-gxbwvranncezdlazagwzjmkzolsl/Status_Prefix.pch.gch Status_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/main.o /Users/zlu/projects/Status/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusAppDelegate.o /Users/zlu/projects/Status/Classes/StatusAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusView.o /Users/zlu/projects/Status/Classes/StatusView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusViewController.o /Users/zlu/projects/Status/Classes/StatusViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/zlu/projects/Status/Classes/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/NSString+SBJSON.o /Users/zlu/projects/Status/Classes/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJSON.o /Users/zlu/projects/Status/Classes/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonBase.o /Users/zlu/projects/Status/Classes/JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonParser.o /Users/zlu/projects/Status/Classes/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonWriter.o /Users/zlu/projects/Status/Classes/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusRequest.o /Users/zlu/projects/Status/Classes/StatusRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/Status normal armv6
-cGenerateDSYMFile /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app.dSYM /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/Status
-cProcessProductPackaging "/Users/zlu/Library/MobileDevice/Provisioning Profiles/2087989E-2639-4D58-A706-CA089A0043FC.mobileprovision" /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/embedded.mobileprovision
-cTouch /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status.xcent
-cCodeSign /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app
+cProcessInfoPlistFile /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/Info.plist Status-Info.plist
+cCompileXIB /Users/zlu/projects/status-iphone/MainWindow.xib
+cCopyPNGFile /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/icon.png icon.png
+cProcessPCH /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-fwismxndaygnetfcvoktgvdxgtsn/Status_Prefix.pch.gch Status_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/main.o /Users/zlu/projects/status-iphone/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusAppDelegate.o /Users/zlu/projects/status-iphone/Classes/StatusAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusView.o /Users/zlu/projects/status-iphone/Classes/StatusView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusViewController.o /Users/zlu/projects/status-iphone/Classes/StatusViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/zlu/projects/status-iphone/Classes/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/NSString+SBJSON.o /Users/zlu/projects/status-iphone/Classes/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJSON.o /Users/zlu/projects/status-iphone/Classes/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonBase.o /Users/zlu/projects/status-iphone/Classes/JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonParser.o /Users/zlu/projects/status-iphone/Classes/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonWriter.o /Users/zlu/projects/status-iphone/Classes/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusRequest.o /Users/zlu/projects/status-iphone/Classes/StatusRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/Status normal armv6
+cGenerateDSYMFile /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app.dSYM /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/Status
+cProcessProductPackaging "/Users/zlu/Library/MobileDevice/Provisioning Profiles/2087989E-2639-4D58-A706-CA089A0043FC.mobileprovision" /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/embedded.mobileprovision
+cTouch /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status.xcent
+cCodeSign /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
 c000000004ABFDAFE0000000000000110
@@ -45,6 +45,16 @@ N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/
 c000000004ABDBA1300000000005F4900
 t1253947923
 s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004ABDD17F0000000000085550
+t1253953919
+s546128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004ABDD17900000000000001AF
+t1253953913
+s431
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 c000000004ABDBDCF0000000000501370
@@ -324,18 +334,276 @@ t1260562198
 s356
 i<UIKit/UIKit.h>
 
+N/Users/zlu/projects/status-iphone/Classes/JSON/JSON.h
+c000000004B2452C100000000000008F9
+t1260671681
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/zlu/projects/status-iphone/Classes/JSON/NSObject+SBJSON.h
+c000000004B2452C10000000000000A01
+t1260671681
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/zlu/projects/status-iphone/Classes/JSON/NSObject+SBJSON.m
+c000000004B2452C1000000000000089E
+t1260671681
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/zlu/projects/status-iphone/Classes/JSON/NSString+SBJSON.h
+c000000004B2452C10000000000000916
+t1260671681
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/zlu/projects/status-iphone/Classes/JSON/NSString+SBJSON.m
+c000000004B2452C1000000000000087D
+t1260671681
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/zlu/projects/status-iphone/Classes/JSON/SBJSON.h
+c000000004B2452C10000000000000AED
+t1260671681
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/zlu/projects/status-iphone/Classes/JSON/SBJSON.m
+c000000004B2452C10000000000001ABC
+t1260671681
+s6844
+i"SBJSON.h"
+
+N/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonBase.h
+c000000004B2452C10000000000000B82
+t1260671681
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonBase.m
+c000000004B2452C10000000000000AC1
+t1260671681
+s2753
+i"SBJsonBase.h"
+
+N/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonParser.h
+c000000004B2452C10000000000000C0B
+t1260671681
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonParser.m
+c000000004B2452C100000000000036CF
+t1260671681
+s14031
+i"SBJsonParser.h"
+
+N/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonWriter.h
+c000000004B2452C10000000000001140
+t1260671681
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonWriter.m
+c000000004B2452C10000000000001E83
+t1260671681
+s7811
+i"SBJsonWriter.h"
+
+N/Users/zlu/projects/status-iphone/Classes/StatusAppDelegate.h
+c000000004B2452C100000000000001D7
+t1260671681
+s471
+i<UIKit/UIKit.h>
+
+N/Users/zlu/projects/status-iphone/Classes/StatusAppDelegate.m
+c000000004B2452C1000000000000030E
+t1260671681
+s782
+i"StatusAppDelegate.h"
+i"StatusView.h"
+
+N/Users/zlu/projects/status-iphone/Classes/StatusRequest.h
+c000000004B2452C10000000000000387
+t1260671681
+s903
+i<Foundation/Foundation.h>
+
+N/Users/zlu/projects/status-iphone/Classes/StatusRequest.m
+c000000004B2452C10000000000000D3D
+t1260671681
+s3389
+i"StatusRequest.h"
+
+N/Users/zlu/projects/status-iphone/Classes/StatusView.h
+c000000004B2452C100000000000002A7
+t1260671681
+s679
+i<Foundation/Foundation.h>
+i"StatusViewController.h"
+
+N/Users/zlu/projects/status-iphone/Classes/StatusView.m
+c000000004B2452C100000000000007CB
+t1260671681
+s1995
+i"StatusView.h"
+i"StatusAppDelegate.h"
+
+N/Users/zlu/projects/status-iphone/Classes/StatusViewController.h
+c000000004B2452C100000000000004CB
+t1260671681
+s1227
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"StatusView.h"
+
+N/Users/zlu/projects/status-iphone/Classes/StatusViewController.m
+c000000004B2454860000000000002320
+t1260672134
+s8992
+i"StatusViewController.h"
+i"StatusView.h"
+i"StatusRequest.h"
+i"JSON/JSON.h"
+
+N/Users/zlu/projects/status-iphone/MainWindow.xib
+c000000004B2452C10000000000001F4E
+t1260671681
+s8014
+
+N/Users/zlu/projects/status-iphone/Status_Prefix.pch
+c000000004B2452C100000000000000B5
+t1260671681
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app
+t1260672137
+s374
+
+N/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app.dSYM
+t1260672136
+s102
+
+N/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/Info.plist
+t1260671681
+s656
+
+N/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/MainWindow.nib
+t1260671681
+s1344
+
+N/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/PkgInfo
+t1260671681
+s8
+
+N/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/ResourceRules.plist
+t1260671681
+s485
+
+N/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/Status
+t1260672136
+s83908
+
+N/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/embedded.mobileprovision
+t1260671681
+s7145
+
+N/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/icon.png
+t1260671681
+s2501
+
+N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/NSObject+SBJSON.o
+t1260671714
+s8576
+
+N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/NSString+SBJSON.o
+t1260671714
+s8500
+
+N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJSON.o
+t1260671715
+s20292
+
+N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonBase.o
+t1260671715
+s13912
+
+N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonParser.o
+t1260671715
+s38928
+
+N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonWriter.o
+t1260671715
+s26916
+
+N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/Status.LinkFileList
+c000000004B2452E20000000000000509
+t1260671714
+s1289
+
+N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusAppDelegate.o
+t1260671714
+s42832
+
+N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusRequest.o
+t1260671715
+s24680
+
+N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusView.o
+t1260671714
+s42128
+
+N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusViewController.o
+t1260672136
+s69856
+
+N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/main.o
+t1260671714
+s6540
+
+N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status.xcent
+t1260671681
+s319
+
+N/Users/zlu/projects/status-iphone/icon.png
+c000000004B2452C1000000000000086C
+t1260671681
+s2156
+
+N/Users/zlu/projects/status-iphone/main.m
+c000000004B2452C10000000000000164
+t1260671681
+s356
+i<UIKit/UIKit.h>
+
+N/var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-fwismxndaygnetfcvoktgvdxgtsn/Status_Prefix.pch.gch
+t1260671714
+s7876792
+
 N/var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-gxbwvranncezdlazagwzjmkzolsl/Status_Prefix.pch.gch
 t1260569559
 s7876792
 
 NStatus-Info.plist
-c000000004B22C44E0000000000000391
-t1260569678
+c000000004B2452C10000000000000391
+t1260671681
 s913
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies282295781#282295781#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies282364936#282364936#0(0"0(0#1#0"4300885448#0"0#
 
 CCodeSign /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app
 s282295782.119335
@@ -344,6 +612,14 @@ r1
 xCodeSign
 x/Users/zlu/projects/Status/build/Debug-iphoneos/Status.app
 lSLF07#2@40"CodeSign build/Debug-iphoneos/Status.app282295782#282295782#0(0"0(0#0#58"/Users/zlu/projects/Status/build/Debug-iphoneos/Status.app4300885448#588"    cd /Users/zlu/projects/Status    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: zhao lu (J29464G5KB)" --resource-rules=/Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/ResourceRules.plist --entitlements /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status.xcent /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app0#
+
+CCodeSign /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app
+s282364936.852529
+e282364937.811970
+r1
+xCodeSign
+x/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app
+lSLF07#2@40"CodeSign build/Debug-iphoneos/Status.app282364936#282364937#0(0"0(0#0#65"/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app4300885448#616"    cd /Users/zlu/projects/status-iphone    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: zhao lu (J29464G5KB)" --resource-rules=/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/ResourceRules.plist --entitlements /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status.xcent /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app0#
 
 CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/zlu/projects/Status/Classes/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s282262360.775013
@@ -358,6 +634,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@65"Compile /Users/zlu/projects/Status/Classes/JSON/NSObject+SBJSON.m282262360#282262360#0(0"0(0#0#57"/Users/zlu/projects/Status/Classes/JSON/NSObject+SBJSON.m4300885448#1611"    cd /Users/zlu/projects/Status    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/Status/build/Debug-iphoneos -I/Users/zlu/projects/Status/build/Debug-iphoneos/include -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-gxbwvranncezdlazagwzjmkzolsl/Status_Prefix.pch -c /Users/zlu/projects/Status/Classes/JSON/NSObject+SBJSON.m -o /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/NSObject+SBJSON.o0#
 
+CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/zlu/projects/status-iphone/Classes/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282364514.869843
+e282364514.936571
+r1
+xCompileC
+xbuild/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/NSObject+SBJSON.o
+x/Users/zlu/projects/status-iphone/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/zlu/projects/status-iphone/Classes/JSON/NSObject+SBJSON.m282364514#282364514#0(0"0(0#0#64"/Users/zlu/projects/status-iphone/Classes/JSON/NSObject+SBJSON.m4300885448#1688"    cd /Users/zlu/projects/status-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/status-iphone/build/Debug-iphoneos -I/Users/zlu/projects/status-iphone/build/Debug-iphoneos/include -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-fwismxndaygnetfcvoktgvdxgtsn/Status_Prefix.pch -c /Users/zlu/projects/status-iphone/Classes/JSON/NSObject+SBJSON.m -o /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/NSObject+SBJSON.o0#
+
 CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/NSString+SBJSON.o /Users/zlu/projects/Status/Classes/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s282262360.826253
 e282262360.911289
@@ -370,6 +659,19 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@65"Compile /Users/zlu/projects/Status/Classes/JSON/NSString+SBJSON.m282262360#282262360#0(0"0(0#0#57"/Users/zlu/projects/Status/Classes/JSON/NSString+SBJSON.m4300885448#1611"    cd /Users/zlu/projects/Status    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/Status/build/Debug-iphoneos -I/Users/zlu/projects/Status/build/Debug-iphoneos/include -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-gxbwvranncezdlazagwzjmkzolsl/Status_Prefix.pch -c /Users/zlu/projects/Status/Classes/JSON/NSString+SBJSON.m -o /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/NSString+SBJSON.o0#
+
+CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/NSString+SBJSON.o /Users/zlu/projects/status-iphone/Classes/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282364514.936700
+e282364515.002629
+r1
+xCompileC
+xbuild/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/NSString+SBJSON.o
+x/Users/zlu/projects/status-iphone/Classes/JSON/NSString+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/zlu/projects/status-iphone/Classes/JSON/NSString+SBJSON.m282364514#282364515#0(0"0(0#0#64"/Users/zlu/projects/status-iphone/Classes/JSON/NSString+SBJSON.m8319383698887823360#1688"    cd /Users/zlu/projects/status-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/status-iphone/build/Debug-iphoneos -I/Users/zlu/projects/status-iphone/build/Debug-iphoneos/include -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-fwismxndaygnetfcvoktgvdxgtsn/Status_Prefix.pch -c /Users/zlu/projects/status-iphone/Classes/JSON/NSString+SBJSON.m -o /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/NSString+SBJSON.o0#
 
 CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJSON.o /Users/zlu/projects/Status/Classes/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s282262360.849640
@@ -384,6 +686,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@56"Compile /Users/zlu/projects/Status/Classes/JSON/SBJSON.m282262360#282262361#0(0"0(0#0#48"/Users/zlu/projects/Status/Classes/JSON/SBJSON.m4300885448#1593"    cd /Users/zlu/projects/Status    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/Status/build/Debug-iphoneos -I/Users/zlu/projects/Status/build/Debug-iphoneos/include -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-gxbwvranncezdlazagwzjmkzolsl/Status_Prefix.pch -c /Users/zlu/projects/Status/Classes/JSON/SBJSON.m -o /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJSON.o0#
 
+CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJSON.o /Users/zlu/projects/status-iphone/Classes/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282364514.960325
+e282364515.065067
+r1
+xCompileC
+xbuild/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJSON.o
+x/Users/zlu/projects/status-iphone/Classes/JSON/SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/zlu/projects/status-iphone/Classes/JSON/SBJSON.m282364514#282364515#0(0"0(0#0#55"/Users/zlu/projects/status-iphone/Classes/JSON/SBJSON.m4300885448#1670"    cd /Users/zlu/projects/status-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/status-iphone/build/Debug-iphoneos -I/Users/zlu/projects/status-iphone/build/Debug-iphoneos/include -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-fwismxndaygnetfcvoktgvdxgtsn/Status_Prefix.pch -c /Users/zlu/projects/status-iphone/Classes/JSON/SBJSON.m -o /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJSON.o0#
+
 CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonBase.o /Users/zlu/projects/Status/Classes/JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s282262360.911385
 e282262360.986361
@@ -396,6 +711,19 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@60"Compile /Users/zlu/projects/Status/Classes/JSON/SBJsonBase.m282262360#282262361#0(0"0(0#0#52"/Users/zlu/projects/Status/Classes/JSON/SBJsonBase.m4300885448#1601"    cd /Users/zlu/projects/Status    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/Status/build/Debug-iphoneos -I/Users/zlu/projects/Status/build/Debug-iphoneos/include -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-gxbwvranncezdlazagwzjmkzolsl/Status_Prefix.pch -c /Users/zlu/projects/Status/Classes/JSON/SBJsonBase.m -o /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonBase.o0#
+
+CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonBase.o /Users/zlu/projects/status-iphone/Classes/JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282364515.002713
+e282364515.093050
+r1
+xCompileC
+xbuild/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonBase.o
+x/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonBase.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/zlu/projects/status-iphone/Classes/JSON/SBJsonBase.m282364515#282364515#0(0"0(0#0#59"/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonBase.m4300885448#1678"    cd /Users/zlu/projects/status-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/status-iphone/build/Debug-iphoneos -I/Users/zlu/projects/status-iphone/build/Debug-iphoneos/include -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-fwismxndaygnetfcvoktgvdxgtsn/Status_Prefix.pch -c /Users/zlu/projects/status-iphone/Classes/JSON/SBJsonBase.m -o /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonBase.o0#
 
 CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonParser.o /Users/zlu/projects/Status/Classes/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s282262360.985366
@@ -410,6 +738,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@62"Compile /Users/zlu/projects/Status/Classes/JSON/SBJsonParser.m282262360#282262361#0(0"0(0#0#54"/Users/zlu/projects/Status/Classes/JSON/SBJsonParser.m4300885448#1605"    cd /Users/zlu/projects/Status    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/Status/build/Debug-iphoneos -I/Users/zlu/projects/Status/build/Debug-iphoneos/include -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-gxbwvranncezdlazagwzjmkzolsl/Status_Prefix.pch -c /Users/zlu/projects/Status/Classes/JSON/SBJsonParser.m -o /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonParser.o0#
 
+CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonParser.o /Users/zlu/projects/status-iphone/Classes/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282364515.065167
+e282364515.283639
+r1
+xCompileC
+xbuild/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonParser.o
+x/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/zlu/projects/status-iphone/Classes/JSON/SBJsonParser.m282364515#282364515#0(0"0(0#0#61"/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonParser.m4300885448#1682"    cd /Users/zlu/projects/status-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/status-iphone/build/Debug-iphoneos -I/Users/zlu/projects/status-iphone/build/Debug-iphoneos/include -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-fwismxndaygnetfcvoktgvdxgtsn/Status_Prefix.pch -c /Users/zlu/projects/status-iphone/Classes/JSON/SBJsonParser.m -o /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonParser.o0#
+
 CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonWriter.o /Users/zlu/projects/Status/Classes/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s282262360.986432
 e282262361.109971
@@ -423,6 +764,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@62"Compile /Users/zlu/projects/Status/Classes/JSON/SBJsonWriter.m282262360#282262361#0(0"0(0#0#54"/Users/zlu/projects/Status/Classes/JSON/SBJsonWriter.m4300885448#1605"    cd /Users/zlu/projects/Status    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/Status/build/Debug-iphoneos -I/Users/zlu/projects/Status/build/Debug-iphoneos/include -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-gxbwvranncezdlazagwzjmkzolsl/Status_Prefix.pch -c /Users/zlu/projects/Status/Classes/JSON/SBJsonWriter.m -o /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonWriter.o0#
 
+CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonWriter.o /Users/zlu/projects/status-iphone/Classes/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282364515.093146
+e282364515.215574
+r1
+xCompileC
+xbuild/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonWriter.o
+x/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonWriter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/zlu/projects/status-iphone/Classes/JSON/SBJsonWriter.m282364515#282364515#0(0"0(0#0#61"/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonWriter.m4300885448#1682"    cd /Users/zlu/projects/status-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/status-iphone/build/Debug-iphoneos -I/Users/zlu/projects/status-iphone/build/Debug-iphoneos/include -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-fwismxndaygnetfcvoktgvdxgtsn/Status_Prefix.pch -c /Users/zlu/projects/status-iphone/Classes/JSON/SBJsonWriter.m -o /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/SBJsonWriter.o0#
+
 CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusAppDelegate.o /Users/zlu/projects/Status/Classes/StatusAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s282275597.216752
 e282275597.311998
@@ -435,6 +789,19 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@62"Compile /Users/zlu/projects/Status/Classes/StatusAppDelegate.m282275597#282275597#0(0"0(0#0#54"/Users/zlu/projects/Status/Classes/StatusAppDelegate.m4300885448#1610"    cd /Users/zlu/projects/Status    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/Status/build/Debug-iphoneos -I/Users/zlu/projects/Status/build/Debug-iphoneos/include -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-gxbwvranncezdlazagwzjmkzolsl/Status_Prefix.pch -c /Users/zlu/projects/Status/Classes/StatusAppDelegate.m -o /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusAppDelegate.o0#
+
+CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusAppDelegate.o /Users/zlu/projects/status-iphone/Classes/StatusAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282364514.720604
+e282364514.807124
+r1
+xCompileC
+xbuild/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusAppDelegate.o
+x/Users/zlu/projects/status-iphone/Classes/StatusAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/zlu/projects/status-iphone/Classes/StatusAppDelegate.m282364514#282364514#0(0"0(0#0#61"/Users/zlu/projects/status-iphone/Classes/StatusAppDelegate.m4300885448#1687"    cd /Users/zlu/projects/status-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/status-iphone/build/Debug-iphoneos -I/Users/zlu/projects/status-iphone/build/Debug-iphoneos/include -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-fwismxndaygnetfcvoktgvdxgtsn/Status_Prefix.pch -c /Users/zlu/projects/status-iphone/Classes/StatusAppDelegate.m -o /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusAppDelegate.o0#
 
 CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusRequest.o /Users/zlu/projects/Status/Classes/StatusRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s282262361.110086
@@ -457,6 +824,29 @@ o/Users/zlu/projects/Status/Classes/StatusRequest.m:45: warning: 'NSURLRequest' 
 o/Users/zlu/projects/Status/Classes/StatusRequest.m:46: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'
 lSLF07#2@58"Compile /Users/zlu/projects/Status/Classes/StatusRequest.m282262361#282262361#0(884"/Users/zlu/projects/Status/Classes/StatusRequest.m: In function '-[StatusRequest request:]':/Users/zlu/projects/Status/Classes/StatusRequest.m:43: warning: 'NSURLRequest' may not respond to '-setHTTPMethod:'/Users/zlu/projects/Status/Classes/StatusRequest.m:43: warning: (Messages without a matching method signature/Users/zlu/projects/Status/Classes/StatusRequest.m:43: warning: will be assumed to return 'id' and accept/Users/zlu/projects/Status/Classes/StatusRequest.m:43: warning: '...' as arguments.)/Users/zlu/projects/Status/Classes/StatusRequest.m:44: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'/Users/zlu/projects/Status/Classes/StatusRequest.m:45: warning: 'NSURLRequest' may not respond to '-setHTTPBody:'/Users/zlu/projects/Status/Classes/StatusRequest.m:46: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'5(22@51"'NSURLRequest' may not respond to '-setHTTPMethod:'282262361#93#116#0(6@50"/Users/zlu/projects/Status/Classes/StatusRequest.m282259946#43#0#43#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282262361#209#110#0(6@50"/Users/zlu/projects/Status/Classes/StatusRequest.m282259946#43#0#43#0#0"0(22@65"'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'282262361#510#130#0(6@50"/Users/zlu/projects/Status/Classes/StatusRequest.m282259946#44#0#44#0#26"'*' may not respond to '*'0(22@49"'NSURLRequest' may not respond to '-setHTTPBody:'282262361#640#114#0(6@50"/Users/zlu/projects/Status/Classes/StatusRequest.m282259946#45#0#45#0#26"'*' may not respond to '*'0(22@65"'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'282262361#754#130#0(6@50"/Users/zlu/projects/Status/Classes/StatusRequest.m282259946#46#0#46#0#26"'*' may not respond to '*'0(0#0#50"/Users/zlu/projects/Status/Classes/StatusRequest.m4300885448#1602"    cd /Users/zlu/projects/Status    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/Status/build/Debug-iphoneos -I/Users/zlu/projects/Status/build/Debug-iphoneos/include -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-gxbwvranncezdlazagwzjmkzolsl/Status_Prefix.pch -c /Users/zlu/projects/Status/Classes/StatusRequest.m -o /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusRequest.o0#
 
+CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusRequest.o /Users/zlu/projects/status-iphone/Classes/StatusRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282364515.215672
+e282364515.290138
+r1
+xCompileC
+xbuild/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusRequest.o
+x/Users/zlu/projects/status-iphone/Classes/StatusRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m: In function '-[StatusRequest status_update:latitude:longitude:delegate:requestSelector:]':
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:41: warning: unused variable 'encodedStatus'
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m: In function '-[StatusRequest request:]':
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:53: warning: 'NSURLRequest' may not respond to '-setHTTPMethod:'
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:53: warning: (Messages without a matching method signature
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:53: warning: will be assumed to return 'id' and accept
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:53: warning: '...' as arguments.)
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:54: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:55: warning: 'NSURLRequest' may not respond to '-setHTTPBody:'
+o/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:56: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'
+lSLF07#2@65"Compile /Users/zlu/projects/status-iphone/Classes/StatusRequest.m282364515#282364515#0(1193"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m: In function '-[StatusRequest status_update:latitude:longitude:delegate:requestSelector:]':/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:41: warning: unused variable 'encodedStatus'/Users/zlu/projects/status-iphone/Classes/StatusRequest.m: In function '-[StatusRequest request:]':/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:53: warning: 'NSURLRequest' may not respond to '-setHTTPMethod:'/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:53: warning: (Messages without a matching method signature/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:53: warning: will be assumed to return 'id' and accept/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:53: warning: '...' as arguments.)/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:54: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:55: warning: 'NSURLRequest' may not respond to '-setHTTPBody:'/Users/zlu/projects/status-iphone/Classes/StatusRequest.m:56: warning: 'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'6(22@31"Unused variable 'encodedStatus'282364515#150#103#0(6@57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m282364481#41#0#41#0#19"unused variable '*'0(22@51"'NSURLRequest' may not respond to '-setHTTPMethod:'282364515#353#123#0(6@57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m282364481#53#0#53#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)282364515#476#117#0(6@57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m282364481#53#0#53#0#0"0(22@65"'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'282364515#798#137#0(6@57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m282364481#54#0#54#0#26"'*' may not respond to '*'0(22@49"'NSURLRequest' may not respond to '-setHTTPBody:'282364515#935#121#0(6@57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m282364481#55#0#55#0#26"'*' may not respond to '*'0(22@65"'NSURLRequest' may not respond to '-setValue:forHTTPHeaderField:'282364515#1056#137#0(6@57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m282364481#56#0#56#0#26"'*' may not respond to '*'0(0#0#57"/Users/zlu/projects/status-iphone/Classes/StatusRequest.m4300885448#1679"    cd /Users/zlu/projects/status-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/status-iphone/build/Debug-iphoneos -I/Users/zlu/projects/status-iphone/build/Debug-iphoneos/include -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-fwismxndaygnetfcvoktgvdxgtsn/Status_Prefix.pch -c /Users/zlu/projects/status-iphone/Classes/StatusRequest.m -o /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusRequest.o0#
+
 CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusView.o /Users/zlu/projects/Status/Classes/StatusView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s282276362.764017
 e282276362.881273
@@ -469,6 +859,19 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@55"Compile /Users/zlu/projects/Status/Classes/StatusView.m282276362#282276363#0(0"0(0#0#47"/Users/zlu/projects/Status/Classes/StatusView.m4300885448#1596"    cd /Users/zlu/projects/Status    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/Status/build/Debug-iphoneos -I/Users/zlu/projects/Status/build/Debug-iphoneos/include -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-gxbwvranncezdlazagwzjmkzolsl/Status_Prefix.pch -c /Users/zlu/projects/Status/Classes/StatusView.m -o /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusView.o0#
+
+CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusView.o /Users/zlu/projects/status-iphone/Classes/StatusView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282364514.780473
+e282364514.869748
+r1
+xCompileC
+xbuild/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusView.o
+x/Users/zlu/projects/status-iphone/Classes/StatusView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/zlu/projects/status-iphone/Classes/StatusView.m282364514#282364514#0(0"0(0#0#54"/Users/zlu/projects/status-iphone/Classes/StatusView.m4300885448#1673"    cd /Users/zlu/projects/status-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/status-iphone/build/Debug-iphoneos -I/Users/zlu/projects/status-iphone/build/Debug-iphoneos/include -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-fwismxndaygnetfcvoktgvdxgtsn/Status_Prefix.pch -c /Users/zlu/projects/status-iphone/Classes/StatusView.m -o /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusView.o0#
 
 CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusViewController.o /Users/zlu/projects/Status/Classes/StatusViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s282295781.940487
@@ -483,6 +886,21 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@65"Compile /Users/zlu/projects/Status/Classes/StatusViewController.m282295781#282295782#0(0"0(0#0#57"/Users/zlu/projects/Status/Classes/StatusViewController.m4300885448#1616"    cd /Users/zlu/projects/Status    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/Status/build/Debug-iphoneos -I/Users/zlu/projects/Status/build/Debug-iphoneos/include -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-gxbwvranncezdlazagwzjmkzolsl/Status_Prefix.pch -c /Users/zlu/projects/Status/Classes/StatusViewController.m -o /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusViewController.o0#
 
+CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusViewController.o /Users/zlu/projects/status-iphone/Classes/StatusViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282364936.563450
+e282364936.710850
+r1
+xCompileC
+xbuild/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusViewController.o
+x/Users/zlu/projects/status-iphone/Classes/StatusViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:229: warning: property 'tableView' requires method '-tableView' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:229: warning: property 'tableView' requires the method 'setTableView:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@72"Compile /Users/zlu/projects/status-iphone/Classes/StatusViewController.m282364936#282364936#0(419"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:229: warning: property 'tableView' requires method '-tableView' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:229: warning: property 'tableView' requires the method 'setTableView:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@126"Property 'tableView' requires method '-tableView' to be defined - use @synthesize, @dynamic or provide a method implementation282364936#0#206#0(6@64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m282364934#229#0#229#0#0"0(22@133"Property 'tableView' requires the method 'setTableView:' to be defined - use @synthesize, @dynamic or provide a method implementation282364936#206#213#0(6@64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m282364934#229#0#229#0#0"0(0#0#64"/Users/zlu/projects/status-iphone/Classes/StatusViewController.m4300885448#1693"    cd /Users/zlu/projects/status-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/status-iphone/build/Debug-iphoneos -I/Users/zlu/projects/status-iphone/build/Debug-iphoneos/include -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-fwismxndaygnetfcvoktgvdxgtsn/Status_Prefix.pch -c /Users/zlu/projects/status-iphone/Classes/StatusViewController.m -o /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/StatusViewController.o0#
+
 CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/main.o /Users/zlu/projects/Status/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s282262360.369933
 e282262360.702825
@@ -496,6 +914,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@41"Compile /Users/zlu/projects/Status/main.m282262360#282262360#0(0"0(0#0#33"/Users/zlu/projects/Status/main.m4300885448#1576"    cd /Users/zlu/projects/Status    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/Status/build/Debug-iphoneos -I/Users/zlu/projects/Status/build/Debug-iphoneos/include -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-gxbwvranncezdlazagwzjmkzolsl/Status_Prefix.pch -c /Users/zlu/projects/Status/main.m -o /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/main.o0#
 
+CCompileC build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/main.o /Users/zlu/projects/status-iphone/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282364514.719011
+e282364514.780374
+r1
+xCompileC
+xbuild/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/main.o
+x/Users/zlu/projects/status-iphone/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/zlu/projects/status-iphone/main.m282364514#282364514#0(0"0(0#0#40"/Users/zlu/projects/status-iphone/main.m4300885448#1653"    cd /Users/zlu/projects/status-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/status-iphone/build/Debug-iphoneos -I/Users/zlu/projects/status-iphone/build/Debug-iphoneos/include -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -include /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-fwismxndaygnetfcvoktgvdxgtsn/Status_Prefix.pch -c /Users/zlu/projects/status-iphone/main.m -o /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/main.o0#
+
 CCompileXIB /Users/zlu/projects/Status/MainWindow.xib
 s282262358.054262
 e282262358.389111
@@ -503,6 +934,9 @@ r1
 xCompileXIB
 x/Users/zlu/projects/Status/MainWindow.xib
 lSLF07#2@25"CompileXIB MainWindow.xib282262358#282262358#0(0"0(0#0#41"/Users/zlu/projects/Status/MainWindow.xib4300885448#431"    cd /Users/zlu/projects/Status    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/MainWindow.nib /Users/zlu/projects/Status/MainWindow.xib0#
+
+CCompileXIB /Users/zlu/projects/status-iphone/MainWindow.xib
+r0
 
 CCopyPNGFile /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/icon.png icon.png
 s282262479.036946
@@ -512,6 +946,9 @@ xCopyPNGFile
 x/Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/icon.png
 xicon.png
 lSLF07#2@61"CopyPNGFile build/Debug-iphoneos/Status.app/icon.png icon.png282262479#282262479#0(0"0(0#0#35"/Users/zlu/projects/Status/icon.png4300885448#519"    cd /Users/zlu/projects/Status    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zlu/projects/Status/icon.png /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/icon.png0#
+
+CCopyPNGFile /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/icon.png icon.png
+r0
 
 CCpResource build/Debug-iphoneos/Status.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
 s282262357.950006
@@ -531,6 +968,15 @@ x/Users/zlu/projects/Status/build/Debug-iphoneos/Status.app.dSYM
 x/Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/Status
 lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/Status.app.dSYM build/Debug-iphoneos/Status.app/Status282295782#282295782#0(0"0(0#0#65"/Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/Status4300885448#323"    cd /Users/zlu/projects/Status    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/Status -o /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app.dSYM0#
 
+CGenerateDSYMFile /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app.dSYM /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/Status
+s282364936.768272
+e282364936.848567
+r1
+xGenerateDSYMFile
+x/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app.dSYM
+x/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/Status
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/Status.app.dSYM build/Debug-iphoneos/Status.app/Status282364936#282364936#0(0"0(0#0#72"/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/Status4300885448#344"    cd /Users/zlu/projects/status-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/Status -o /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app.dSYM0#
+
 CLd /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/Status normal armv6
 s282295782.063677
 e282295782.095023
@@ -541,6 +987,16 @@ xnormal
 xarmv6
 lSLF07#2@70"Link /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/Status282295782#282295782#0(0"0(0#0#0"4300885448#830"    cd /Users/zlu/projects/Status    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/zlu/projects/Status/build/Debug-iphoneos -F/Users/zlu/projects/Status/build/Debug-iphoneos -filelist /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/Status.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/Status0#
 
+CLd /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/Status normal armv6
+s282364936.711054
+e282364936.768174
+r1
+xLd
+x/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/Status
+xnormal
+xarmv6
+lSLF07#2@77"Link /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/Status282364936#282364936#0(0"0(0#0#0"4300885448#889"    cd /Users/zlu/projects/status-iphone    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/zlu/projects/status-iphone/build/Debug-iphoneos -F/Users/zlu/projects/status-iphone/build/Debug-iphoneos -filelist /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Objects-normal/armv6/Status.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -o /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/Status0#
+
 CProcessInfoPlistFile /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/Info.plist Status-Info.plist
 s282262479.033396
 e282262479.036698
@@ -549,6 +1005,22 @@ xProcessInfoPlistFile
 x/Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/Info.plist
 xStatus-Info.plist
 lSLF07#2@25"Process Status-Info.plist282262479#282262479#0(0"0(0#0#44"/Users/zlu/projects/Status/Status-Info.plist4300885448#510"    cd /Users/zlu/projects/Status    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Status-Info.plist -genpkginfo /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/ResourceRules.plist -o /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/Info.plist Status-Info.plist
+r0
+
+CProcessPCH /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-fwismxndaygnetfcvoktgvdxgtsn/Status_Prefix.pch.gch Status_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282364514.211865
+e282364514.718895
+r1
+xProcessPCH
+x/var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-fwismxndaygnetfcvoktgvdxgtsn/Status_Prefix.pch.gch
+xStatus_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Status_Prefix.pch282364514#282364514#0(0"0(0#0#51"/Users/zlu/projects/status-iphone/Status_Prefix.pch8382095504353616896#1557"    cd /Users/zlu/projects/status-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/status-iphone/build/Debug-iphoneos -I/Users/zlu/projects/status-iphone/build/Debug-iphoneos/include -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources/armv6 -I/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/DerivedSources -c /Users/zlu/projects/status-iphone/Status_Prefix.pch -o /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-fwismxndaygnetfcvoktgvdxgtsn/Status_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-gxbwvranncezdlazagwzjmkzolsl/Status_Prefix.pch.gch Status_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
 s282262358.389223
@@ -572,6 +1044,9 @@ x/Users/zlu/Library/MobileDevice/Provisioning Profiles/2087989E-2639-4D58-A706-C
 x/Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/embedded.mobileprovision
 lSLF07#2@189"ProcessProductPackaging "/Users/zlu/Library/MobileDevice/Provisioning Profiles/2087989E-2639-4D58-A706-CA089A0043FC.mobileprovision" build/Debug-iphoneos/Status.app/embedded.mobileprovision282262362#282262362#0(0"0(0#0#83"/Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/embedded.mobileprovision4300885448#396"    cd /Users/zlu/projects/Status    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/zlu/Library/MobileDevice/Provisioning Profiles/2087989E-2639-4D58-A706-CA089A0043FC.mobileprovision" -o /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app/embedded.mobileprovision0#
 
+CProcessProductPackaging "/Users/zlu/Library/MobileDevice/Provisioning Profiles/2087989E-2639-4D58-A706-CA089A0043FC.mobileprovision" /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/embedded.mobileprovision
+r0
+
 CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status.xcent
 s282262479.615461
 e282262479.644777
@@ -581,6 +1056,9 @@ x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitle
 x/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status.xcent
 lSLF07#2@174"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist build/Status.build/Debug-iphoneos/Status.build/Status.xcent282262479#282262479#0(0"0(0#0#86"/Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status.xcent4300885448#407"    cd /Users/zlu/projects/Status    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/zlu/projects/Status/build/Status.build/Debug-iphoneos/Status.build/Status.xcent0#
 
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/zlu/projects/status-iphone/build/Status.build/Debug-iphoneos/Status.build/Status.xcent
+r0
+
 CTouch /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app
 s282295782.116678
 e282295782.119203
@@ -588,4 +1066,12 @@ r1
 xTouch
 x/Users/zlu/projects/Status/build/Debug-iphoneos/Status.app
 lSLF07#2@64"Touch /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app282295782#282295782#0(0"0(0#0#0"4300885448#239"    cd /Users/zlu/projects/Status    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app0#
+
+CTouch /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app
+s282364936.848704
+e282364936.852419
+r1
+xTouch
+x/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app
+lSLF07#2@71"Touch /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app282364936#282364936#0(0"0(0#0#0"4300885448#253"    cd /Users/zlu/projects/status-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app0#
 

@@ -23,8 +23,8 @@ cGenerateDSYMFile /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/
 cTouch /Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
-c000000004AEC7ED600000000000000EE
-t1257012950
+c000000004B0B1E4600000000000000EE
+t1259019846
 s238
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
@@ -352,141 +352,141 @@ s356
 i<UIKit/UIKit.h>
 
 N/Users/zlu/projects/status-iphone/Classes/JSON/JSON.h
-c000000004B23A72200000000000008F9
-t1260627746
+c000000004B2452C100000000000008F9
+t1260671681
 s2297
 i"SBJSON.h"
 i"NSObject+SBJSON.h"
 i"NSString+SBJSON.h"
 
 N/Users/zlu/projects/status-iphone/Classes/JSON/NSObject+SBJSON.h
-c000000004B23A7220000000000000A01
-t1260627746
+c000000004B2452C10000000000000A01
+t1260671681
 s2561
 i<Foundation/Foundation.h>
 
 N/Users/zlu/projects/status-iphone/Classes/JSON/NSObject+SBJSON.m
-c000000004B23A722000000000000089E
-t1260627746
+c000000004B2452C1000000000000089E
+t1260671681
 s2206
 i"NSObject+SBJSON.h"
 i"SBJsonWriter.h"
 
 N/Users/zlu/projects/status-iphone/Classes/JSON/NSString+SBJSON.h
-c000000004B23A7220000000000000916
-t1260627746
+c000000004B2452C10000000000000916
+t1260671681
 s2326
 i<Foundation/Foundation.h>
 
 N/Users/zlu/projects/status-iphone/Classes/JSON/NSString+SBJSON.m
-c000000004B23A722000000000000087D
-t1260627746
+c000000004B2452C1000000000000087D
+t1260671681
 s2173
 i"NSString+SBJSON.h"
 i"SBJsonParser.h"
 
 N/Users/zlu/projects/status-iphone/Classes/JSON/SBJSON.h
-c000000004B23A7220000000000000AED
-t1260627746
+c000000004B2452C10000000000000AED
+t1260671681
 s2797
 i<Foundation/Foundation.h>
 i"SBJsonParser.h"
 i"SBJsonWriter.h"
 
 N/Users/zlu/projects/status-iphone/Classes/JSON/SBJSON.m
-c000000004B23A7220000000000001ABC
-t1260627746
+c000000004B2452C10000000000001ABC
+t1260671681
 s6844
 i"SBJSON.h"
 
 N/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonBase.h
-c000000004B23A7220000000000000B82
-t1260627746
+c000000004B2452C10000000000000B82
+t1260671681
 s2946
 i<Foundation/Foundation.h>
 
 N/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonBase.m
-c000000004B23A7220000000000000AC1
-t1260627746
+c000000004B2452C10000000000000AC1
+t1260671681
 s2753
 i"SBJsonBase.h"
 
 N/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonParser.h
-c000000004B23A7220000000000000C0B
-t1260627746
+c000000004B2452C10000000000000C0B
+t1260671681
 s3083
 i<Foundation/Foundation.h>
 i"SBJsonBase.h"
 
 N/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonParser.m
-c000000004B23A72200000000000036CF
-t1260627746
+c000000004B2452C100000000000036CF
+t1260671681
 s14031
 i"SBJsonParser.h"
 
 N/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonWriter.h
-c000000004B23A7220000000000001140
-t1260627746
+c000000004B2452C10000000000001140
+t1260671681
 s4416
 i<Foundation/Foundation.h>
 i"SBJsonBase.h"
 
 N/Users/zlu/projects/status-iphone/Classes/JSON/SBJsonWriter.m
-c000000004B23A7220000000000001E83
-t1260627746
+c000000004B2452C10000000000001E83
+t1260671681
 s7811
 i"SBJsonWriter.h"
 
 N/Users/zlu/projects/status-iphone/Classes/StatusAppDelegate.h
-c000000004B23A72200000000000001D7
-t1260627746
+c000000004B2452C100000000000001D7
+t1260671681
 s471
 i<UIKit/UIKit.h>
 
 N/Users/zlu/projects/status-iphone/Classes/StatusAppDelegate.m
-c000000004B23A722000000000000030E
-t1260627746
+c000000004B2452C1000000000000030E
+t1260671681
 s782
 i"StatusAppDelegate.h"
 i"StatusView.h"
 
 N/Users/zlu/projects/status-iphone/Classes/StatusRequest.h
-c000000004B2437640000000000000387
-t1260664676
+c000000004B2452C10000000000000387
+t1260671681
 s903
 i<Foundation/Foundation.h>
 
 N/Users/zlu/projects/status-iphone/Classes/StatusRequest.m
-c000000004B24377B0000000000000D3D
-t1260664699
+c000000004B2452C10000000000000D3D
+t1260671681
 s3389
 i"StatusRequest.h"
 
 N/Users/zlu/projects/status-iphone/Classes/StatusView.h
-c000000004B23B76C00000000000002A7
-t1260631916
+c000000004B2452C100000000000002A7
+t1260671681
 s679
 i<Foundation/Foundation.h>
 i"StatusViewController.h"
 
 N/Users/zlu/projects/status-iphone/Classes/StatusView.m
-c000000004B23B90A00000000000007CB
-t1260632330
+c000000004B2452C100000000000007CB
+t1260671681
 s1995
 i"StatusView.h"
 i"StatusAppDelegate.h"
 
 N/Users/zlu/projects/status-iphone/Classes/StatusViewController.h
-c000000004B2420DE00000000000004CB
-t1260658910
+c000000004B2452C100000000000004CB
+t1260671681
 s1227
 i<UIKit/UIKit.h>
 i<CoreLocation/CoreLocation.h>
 i"StatusView.h"
 
 N/Users/zlu/projects/status-iphone/Classes/StatusViewController.m
-c000000004B2450EF00000000000025B1
-t1260671215
+c000000004B2452C100000000000025B1
+t1260671681
 s9649
 i"StatusViewController.h"
 i"StatusView.h"
@@ -494,102 +494,102 @@ i"StatusRequest.h"
 i"JSON/JSON.h"
 
 N/Users/zlu/projects/status-iphone/MainWindow.xib
-c000000004B23A7220000000000001F4E
-t1260627746
+c000000004B2452C10000000000001F4E
+t1260671681
 s8014
 
 N/Users/zlu/projects/status-iphone/Status_Prefix.pch
-c000000004B23A72200000000000000B5
-t1260627746
+c000000004B2452C100000000000000B5
+t1260671681
 s181
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app
-t1260671216
+t1260671681
 s238
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app.dSYM
-t1260671216
+t1260671681
 s102
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Info.plist
-t1260627746
+t1260671681
 s592
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/MainWindow.nib
-t1260627746
+t1260671681
 s1344
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/PkgInfo
-t1260627746
+t1260671681
 s8
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/Status
-t1260671216
+t1260671681
 s75992
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphonesimulator/Status.app/icon.png
-t1260627746
+t1260671681
 s2156
 
 N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/NSObject+SBJSON.o
-t1260627778
+t1260671681
 s7748
 
 N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/NSString+SBJSON.o
-t1260627778
+t1260671681
 s7768
 
 N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/SBJSON.o
-t1260627778
+t1260671681
 s16772
 
 N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/SBJsonBase.o
-t1260627778
+t1260671681
 s12112
 
 N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/SBJsonParser.o
-t1260627778
+t1260671681
 s29828
 
 N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/SBJsonWriter.o
-t1260627778
+t1260671681
 s22048
 
 N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/Status.LinkFileList
-c000000004B23A741000000000000054B
-t1260627777
+c000000004B2452C1000000000000054B
+t1260671681
 s1355
 
 N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusAppDelegate.o
-t1260658913
+t1260671681
 s39680
 
 N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusRequest.o
-t1260664701
+t1260671681
 s19180
 
 N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusView.o
-t1260658912
+t1260671681
 s39788
 
 N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/StatusViewController.o
-t1260671216
+t1260671681
 s59888
 
 N/Users/zlu/projects/status-iphone/build/Status.build/Debug-iphonesimulator/Status.build/Objects-normal/i386/main.o
-t1260627778
+t1260671681
 s5948
 
 N/Users/zlu/projects/status-iphone/icon.png
-c000000004B23A722000000000000086C
-t1260627746
+c000000004B2452C1000000000000086C
+t1260671681
 s2156
 
 N/Users/zlu/projects/status-iphone/main.m
-c000000004B23A7220000000000000164
-t1260627746
+c000000004B2452C10000000000000164
+t1260671681
 s356
 i<UIKit/UIKit.h>
 
@@ -679,9 +679,13 @@ N/var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/Shared
 t1260562700
 s13034960
 
+N/var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-hfvduaieorrdniaelpeecnuzlmcy/Status_Prefix.pch.gch
+t1260636357
+s13034960
+
 NStatus-Info.plist
-c000000004B23A7220000000000000391
-t1260627746
+c000000004B2452C10000000000000391
+t1260671681
 s913
 
 CCheck dependencies
@@ -1151,6 +1155,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@28"Precompile Status_Prefix.pch282255500#282255500#0(0"0(0#0#44"/Users/zlu/projects/Status/Status_Prefix.pch4300885448#1612"    cd /Users/zlu/projects/Status    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/Status-generated-files.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/Status-own-target-headers.hmap -I/Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/Status-all-target-headers.hmap -iquote /Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/Status-project-headers.hmap -F/Users/zlu/projects/Status/build/Debug-iphonesimulator -I/Users/zlu/projects/Status/build/Debug-iphonesimulator/include -I/Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/DerivedSources/i386 -I/Users/zlu/projects/Status/build/Status.build/Debug-iphonesimulator/Status.build/DerivedSources -c /Users/zlu/projects/Status/Status_Prefix.pch -o /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-dfsvbtqheakvgzdbyijnrrplqgyr/Status_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ec/ecngPt92Hpi9R2AEhn4NnE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Status_Prefix-hfvduaieorrdniaelpeecnuzlmcy/Status_Prefix.pch.gch Status_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CTouch /Users/zlu/projects/Status/build/Debug-iphonesimulator/Status.app
 s282296442.354169

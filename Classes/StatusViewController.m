@@ -168,35 +168,14 @@
 
 - (void) status_update_callback:(NSData *)data {
 	NSString *status = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
-	NSLog(@"Status update callback %@", status);
-	
+	NSLog(@"Status update callback %@", status);	
 	SBJSON *jsonParser = [SBJSON new];
 	NSDictionary *myStatusDictionary = [[jsonParser objectWithString:status] objectForKey:@"custom_status"];
 	NSString *stat = [myStatusDictionary objectForKey:@"stat"];
 	NSString *business = [myStatusDictionary objectForKey:@"business"];
 	NSString *myStatus = [stat stringByAppendingFormat:@" at %@", business];
 	NSLog(@"Combined status %@", myStatus);
-	
 	self.statusView.myStatusView.text = myStatus;
-//	NSDictionary *dict = [contactStats objectAtIndex:indexPath.row];
-//	for(id key in dict) {
-//		NSString *stat = [[dict objectForKey:key] objectForKey:@"stat"];
-//		cell.textLabel.text = stat;
-//	}
-	
-//	NSMutableString *stat = [NSMutableString stringWithString:@"Friend Status:\n"];
-//	for (int i=0; i<[contactStatus count]; i++) {
-//		
-//		NSString * s = [contactStatus objectAtIndex:i];
-//		[stat appendFormat:@"%@\n", s];
-//		[contactStats addObject:s];
-//	}
-	
-	//	NSDictionary *results = [status JSONValue];
-	//	NSArray *values = [results allValues];
-	//	for(NSArray *value in values) {
-	//		[contactStats addObject:value];
-	//	}
 }
 
 /*
@@ -228,13 +207,14 @@
 			// 
 			// IMPORTANT!!! Minimize power usage by stopping the location manager as soon as possible.
 			//
-			[self stopUpdatingLocation:NSLocalizedString(@"Acquired Location", @"Acquired Location")];
+			[self.locationManager stopUpdatingLocation];
 			// we can also cancel our previous performSelector:withObject:afterDelay: - it's no longer necessary
 			[NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(stopUpdatingLocation:) object:nil];
 		}
 	}
 	// update the display with the new location data
 	[self postStatusWithLocation:newLocation];   
+			 [self.locationManager stopUpdatingLocation];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error {
@@ -242,7 +222,7 @@
 	// We can ignore this error for the scenario of getting a single location fix, because we already have a 
 	// timeout that will stop the location manager to save power.
 	if ([error code] != kCLErrorLocationUnknown) {
-		[self stopUpdatingLocation:NSLocalizedString(@"Error", @"Error")];
+		[self.locationManager stopUpdatingLocation];
 	}
 }
 
