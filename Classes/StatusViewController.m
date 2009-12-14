@@ -277,6 +277,9 @@
 }
 
 - (IBAction) startRecording:(id)sender {
+	if(audioRecorder == nil) {
+		[self createAVAudioRecorder];
+	}
 	[audioRecorder record];
 }
 
@@ -341,6 +344,8 @@
 
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {
 	NSLog (@"did finish playing");
+	[audioPlayer release];
+	audioPlayer = nil;
 }
 
 - (void)audioPlayerDecodeErrorDidOccur:(AVAudioPlayer *)player error:(NSError *)error {

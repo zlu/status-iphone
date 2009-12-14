@@ -1,7 +1,7 @@
 TStatus
 v7
 r0
-t282519783.933323
+t282519807.381367
 cCheck dependencies
 cCpResource build/Debug-iphoneos/Status.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/Info.plist Status-Info.plist
@@ -536,7 +536,7 @@ s485
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/Status
 t1260826982
-s91200
+s97344
 
 N/Users/zlu/projects/status-iphone/build/Debug-iphoneos/Status.app/embedded.mobileprovision
 t1260671681
@@ -625,7 +625,7 @@ s913
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies282519782#282519782#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies282519807#282519807#0(0"0(0#1#0"4300885448#0"0#
 
 CCodeSign /Users/zlu/projects/Status/build/Debug-iphoneos/Status.app
 s282295782.119335
