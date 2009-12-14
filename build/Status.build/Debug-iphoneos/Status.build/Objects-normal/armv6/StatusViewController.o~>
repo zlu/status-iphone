@@ -1,0 +1,31 @@
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:18: error: no declaration of property 'audioRecorder' found in the interface
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m: In function '-[StatusViewController createAVAudioRecorder]':
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:235: error: 'audioRecorder' undeclared (first use in this function)
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:235: error: (Each undeclared identifier is reported only once
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:235: error: for each function it appears in.)
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:238: warning: passing argument 1 of 'stringByAppendingPathComponent:' from incompatible pointer type
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:242: warning: 'NSNumber' may not respond to '+numberWithInt:forKey:'
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:242: warning: (Messages without a matching method signature
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:242: warning: will be assumed to return 'id' and accept
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:242: warning: '...' as arguments.)
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:242: warning: 'NSMutableDictionary' may not respond to '-setObject:'
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:243: warning: 'NSNumber' may not respond to '+numberWithFloat:forKey:'
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:243: warning: 'NSMutableDictionary' may not respond to '-setObject:'
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:244: warning: 'NSNumber' may not respond to '+numberWithInt:forKey:'
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:244: warning: 'NSMutableDictionary' may not respond to '-setObject:'
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:245: warning: 'NSNumber' may not respond to '+numberWithBool:forKey:'
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:245: warning: 'NSMutableDictionary' may not respond to '-setObject:'
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:246: warning: 'NSNumber' may not respond to '+numberWithBool:forKey:'
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:246: warning: 'NSMutableDictionary' may not respond to '-setObject:'
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:260: warning: control reaches end of non-void function
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m: In function '-[StatusViewController startRecording]':
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:263: error: 'audioRecorder' undeclared (first use in this function)
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m: In function '-[StatusViewController stopRecord]':
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:267: error: 'audioRecorder' undeclared (first use in this function)
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m: In function '-[StatusViewController audioRecorderDidFinishRecording:successfully:]':
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:272: error: 'audioRecorder' undeclared (first use in this function)
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m: In function '-[StatusViewController audioRecorderEncodeErrorDidOccur:error:]':
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:278: error: 'audioRecorder' undeclared (first use in this function)
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m: At top level:
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:282: warning: property 'tableView' requires method '-tableView' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/zlu/projects/status-iphone/Classes/StatusViewController.m:282: warning: property 'tableView' requires the method 'setTableView:' to be defined - use @synthesize, @dynamic or provide a method implementation

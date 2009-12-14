@@ -39,7 +39,7 @@
 	}
 	
 	NSString *encodedStatus = [status stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-	NSString *withLocation = [status stringByAppendingFormat:@"&status[latitude]=%@&status[longitude]=%@", latitude, longitude];
+	NSString *withLocation = [encodedStatus stringByAppendingFormat:@"&status[latitude]=%@&status[longitude]=%@", latitude, longitude];
 	NSURL *url = [NSURL URLWithString:[@"http://phonestat.com/statuses?format=json&user_id=5&status[type]=CustomStatus&status[stat]=" stringByAppendingString:withLocation]];
 	requestBody = [NSString	stringWithFormat:@"status=%@", status];
 	[self request:url];

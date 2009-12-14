@@ -8,11 +8,19 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
+#import <AVFoundation/AVFoundation.h>
+#import <CoreAudio/CoreAudioTypes.h>
+
 #import "StatusView.h"
 
 @class StatusView;
 
-@interface StatusViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate, CLLocationManagerDelegate> {
+@interface StatusViewController : UIViewController <UITableViewDelegate, 
+													UITableViewDataSource, 
+													UITextFieldDelegate, 
+													CLLocationManagerDelegate, 
+													AVAudioRecorderDelegate,
+													AVAudioPlayerDelegate> {
 	StatusView *statusView;
 	
 	NSArray *contactStatus;
@@ -21,6 +29,10 @@
 	CLLocationManager *locationManager;
 	NSMutableArray *locationMeasurements;
 	CLLocation *bestEffortAtLocation;
+														
+	NSString *_documentsPath;
+	AVAudioRecorder *audioRecorder;
+    AVAudioPlayer *audioPlayer;
 }
 
 @property (nonatomic, assign) IBOutlet StatusView *statusView;
@@ -37,4 +49,8 @@
 - (void) postStatusWithLocation:(CLLocation *)location;
 - (void)friends_status_callback:(NSData *)data;
 - (void)status_update_callback:(NSData *)data;
+
+- (NSError *) createAVAudioRecorder;
+- (IBAction) startRecording:(id)sender;
+- (IBAction) stopRecord:(id)sender;
 @end

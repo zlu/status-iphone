@@ -11,7 +11,7 @@
 
 @implementation StatusView
 
-@synthesize statusViewController, myStatusView, contactStatusView, statusButton;
+@synthesize statusViewController, myStatusView, contactStatusView, statusButton, startRecordButton, stopRecordButton;
 
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
@@ -26,15 +26,26 @@
 		
 		self.statusButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 		self.statusButton.frame = CGRectMake(250, 5, 65, 25);			
-//		self.statusButton = [[[UIButton alloc] initWithFrame:CGRectMake(250, 5, 65, 25)] autorelease];
 		[self.statusButton setTitle:@"Update" forState:UIControlStateNormal & UIControlStateHighlighted & UIControlStateSelected];
 		[self.statusButton setTitleColor:[UIColor blackColor] forState:UIControlEventTouchDown];
-		//[self.statusButton setBackgroundColor:[UIColor orangeColor]];
-		
-			[self.statusButton addTarget:statusViewController action:@selector(postStatus:)forControlEvents:UIControlEventTouchUpInside];
+		[self.statusButton addTarget:statusViewController action:@selector(postStatus:)forControlEvents:UIControlEventTouchUpInside];
 		[self addSubview:self.statusButton];
+
+		self.startRecordButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+		self.startRecordButton.frame = CGRectMake(5, 50, 65, 25);
+		[self.startRecordButton setTitle:@"Record" forState:UIControlStateNormal & UIControlStateHighlighted & UIControlStateSelected];
+		[self.startRecordButton setTitleColor:[UIColor blackColor] forState:UIControlEventTouchDown];
+		[self.startRecordButton addTarget:statusViewController action:@selector(startRecording:)forControlEvents:UIControlEventTouchUpInside];
+		[self addSubview:self.startRecordButton];
+
+		self.stopRecordButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+		self.stopRecordButton.frame = CGRectMake(80, 50, 65, 25);
+		[self.stopRecordButton setTitle:@"Done" forState:UIControlStateNormal & UIControlStateHighlighted & UIControlStateSelected];
+		[self.stopRecordButton setTitleColor:[UIColor blackColor] forState:UIControlEventTouchDown];
+		[self.stopRecordButton addTarget:statusViewController action:@selector(stopRecording:)forControlEvents:UIControlEventTouchUpInside];
+		[self addSubview:self.stopRecordButton];
 		
-		self.contactStatusView = [[UITableView alloc] initWithFrame:CGRectMake(0, 50, 340, 400) style:UITableViewStylePlain];
+		self.contactStatusView = [[UITableView alloc] initWithFrame:CGRectMake(0, 80, 340, 400) style:UITableViewStylePlain];
 		self.contactStatusView.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
 		[self.contactStatusView reloadData];
 		[self addSubview:self.contactStatusView];
@@ -45,6 +56,8 @@
 - (void)dealloc {
 	[myStatusView release];
 	[statusButton release];
+	[startRecordButton release];
+	[stopRecordButton release];
 	[contactStatusView release];
     [super dealloc];
 }

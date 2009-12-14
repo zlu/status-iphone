@@ -15,6 +15,7 @@
 
 @synthesize statusView, contactStats, contactStatus;
 @synthesize locationManager, locationMeasurements, bestEffortAtLocation;
+//@synthesize audioRecorder;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -34,16 +35,18 @@
 	NSLog(@"Getting friends status for user");
 	contactStatus = [[NSArray alloc] init];
 	contactStats = [[NSMutableArray alloc] init];
-  [statusRequest friends_status:self requestSelector:@selector(friends_status_callback:)];
+	[statusRequest friends_status:self requestSelector:@selector(friends_status_callback:)];
 	
 	StatusView *view = [[StatusView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
-  view.statusViewController = self;
+	view.statusViewController = self;
 	view.contactStatusView.delegate = self;
 	view.contactStatusView.dataSource = self;
-	self.view = view;
-  self.statusView = view;
+	view.myStatusView.delegate = self;
 	
-  [view release];	
+	self.view = view;
+	self.statusView = view;
+	
+	[view release];	
 }
 
 
@@ -57,6 +60,9 @@
 	//locationManager.desiredAccuracy = [NSNumber numberWithDouble:kCLLocationAccuracyThreeKilometers];
 	// Once configured, the location manager must be "started".
 	//[self.locationManager startUpdatingLocation];
+	
+	[self createAVAudioRecorder];
+
 }
 
 
@@ -85,7 +91,9 @@
 	[self.locationManager release];
 	[self.locationMeasurements release];
 	[self.bestEffortAtLocation release];
-  [super dealloc];
+	[self.statusView release];
+	
+	[super dealloc];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -214,7 +222,7 @@
 	}
 	// update the display with the new location data
 	[self postStatusWithLocation:newLocation];   
-			 [self.locationManager stopUpdatingLocation];
+	[self.locationManager stopUpdatingLocation];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error {
@@ -224,6 +232,126 @@
 	if ([error code] != kCLErrorLocationUnknown) {
 		[self.locationManager stopUpdatingLocation];
 	}
+}
+
+- (NSString *) documentsPath {
+	if (! _documentsPath) {
+		NSArray *searchPaths =
+		NSSearchPathForDirectoriesInDomains
+		(NSDocumentDirectory, NSUserDomainMask, YES);
+		_documentsPath = [searchPaths objectAtIndex: 0];
+		[_documentsPath retain];
+	}
+	return _documentsPath;
+}
+
+- (NSError *) createAVAudioRecorder {
+	[audioRecorder release];
+	audioRecorder = nil;
+	
+	NSString *destinationString = [[self documentsPath] stringByAppendingPathComponent:@"vmgreeting"];
+	NSURL *destinationURL = [NSURL fileURLWithPath:destinationString];
+	
+	NSMutableDictionary *recordSettings = [[NSMutableDictionary alloc] initWithCapacity:10];
+	[recordSettings setObject:[NSNumber numberWithInt: kAudioFormatLinearPCM] forKey: AVFormatIDKey];
+	[recordSettings setObject:[NSNumber numberWithFloat:44100.0] forKey: AVSampleRateKey]; 
+	[recordSettings setObject:[NSNumber numberWithInt:16] forKey:AVLinearPCMBitDepthKey];
+	[recordSettings setObject:[NSNumber numberWithBool:FALSE] forKey:AVLinearPCMIsBigEndianKey];
+	[recordSettings setObject:[NSNumber numberWithBool:FALSE] forKey:AVLinearPCMIsFloatKey];
+	
+	NSError *recorderSetupError = nil;
+	audioRecorder = [[AVAudioRecorder alloc] initWithURL:destinationURL settings:recordSettings error:&recorderSetupError];
+	[recordSettings release];
+	
+	if(recorderSetupError) {
+		UIAlertView *cantRecordAlert = [[UIAlertView alloc] initWithTitle:@"Cannot record" message:@"Please try again" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+		[cantRecordAlert show];
+		[cantRecordAlert release];
+		return recorderSetupError;
+	}
+	[audioRecorder prepareToRecord];
+	audioRecorder.delegate = self;
+	
+	NSLog (@"error: %@", recorderSetupError);
+	return recorderSetupError;
+}
+
+- (IBAction) startRecording:(id)sender {
+	[audioRecorder record];
+}
+
+- (IBAction) stopRecording:(id)sender {
+	[audioRecorder stop];
+}
+
+- (void)audioRecorderDidFinishRecording:(AVAudioRecorder *)recorder
+						   successfully:(BOOL)flag {
+	NSLog(@"audioRecorderDidfinishRecording:successfully:");
+	[audioRecorder release];
+	audioRecorder = nil;
+	[self createAVAudioPlayer];
+	[audioPlayer play];
+}
+
+- (void)audioRecorderEncodeErrorDidOccur:(AVAudioRecorder *)recorder
+								   error:(NSError *)error {
+	NSLog(@"audioRecorderEncodeErrorDidOccur:error:");
+	[audioRecorder release];
+	audioRecorder = nil;
+}
+
+- (NSError*) createAVAudioPlayer {
+	[audioPlayer release];
+	audioPlayer = nil;
+
+	[_documentsPath release];
+	NSArray *searchPaths =
+	NSSearchPathForDirectoriesInDomains
+	(NSDocumentDirectory, NSUserDomainMask, YES);
+	_documentsPath = [searchPaths objectAtIndex: 0];
+	[_documentsPath retain];
+	
+	NSString *filename = @"vmgreeting";
+	NSString *playbackPath =
+	[_documentsPath stringByAppendingPathComponent: filename];
+	NSURL *playbackURL = [NSURL fileURLWithPath: playbackPath];
+	NSError *playerSetupError = nil;
+	audioPlayer = [[AVAudioPlayer alloc]
+	initWithContentsOfURL:playbackURL error:&playerSetupError];
+	
+	if (playerSetupError) {
+		NSString *errorTitle =
+		[NSString stringWithFormat:@"Cannot Play %@:", filename];
+		UIAlertView *cantPlayAlert =
+		[[UIAlertView alloc] initWithTitle: errorTitle
+								   message: [playerSetupError localizedDescription]
+								  delegate:nil
+						 cancelButtonTitle:@"OK"
+						 otherButtonTitles:nil];
+		[cantPlayAlert show];
+		[cantPlayAlert release]; 
+		audioPlayer = nil;
+		return playerSetupError;
+	}
+	
+	audioPlayer.delegate = self;
+	audioPlayer.meteringEnabled = YES;
+	return playerSetupError;
+}
+
+- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {
+	NSLog (@"did finish playing");
+}
+
+- (void)audioPlayerDecodeErrorDidOccur:(AVAudioPlayer *)player error:(NSError *)error {
+	UIAlertView *cantPlayAlert =
+	[[UIAlertView alloc] initWithTitle: @"Playback error"
+							   message: [error localizedDescription]
+							  delegate:nil
+					 cancelButtonTitle:@"OK"
+					 otherButtonTitles:nil];
+	[cantPlayAlert show];
+	[cantPlayAlert release]; 
 }
 
 @end
