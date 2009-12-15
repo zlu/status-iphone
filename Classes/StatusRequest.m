@@ -66,6 +66,51 @@
 	}
 }
 
+- (void)upload_voicemail:(id)requestDelegate requestSelector:(SEL)requestSelector {
+	self.delegate = requestDelegate;
+	self.callback = requestSelector;
+	NSString *urlString = @"http://phonestat.com/updated_voice_status?format=json&user_id=5";
+	NSURL *url = [NSURL URLWithString:urlString];
+	NSString *filename = @"vmgreeting";
+	[self upload:url filename:filename];
+}
+
+- (void)upload:(NSURL *)url filename:(NSString *)filename {
+	theRequest = [[NSMutableURLRequest alloc] initWithURL:url];
+	[theRequest setHTTPMethod:@"POST"];
+	NSString *boundary = @"+++++++++++++++++++++++iPhone upload boundary+++++++++++++++++++++++";
+	NSString *contentType = [NSString stringWithFormat:@"multipart/form-data; boundary=%@", boundary];	
+	[theRequest setValue:contentType forHTTPHeaderField:@"Content-Type"];
+	
+	NSMutableData *postBody = [NSMutableData data];
+	[postBody appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n", boundary] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithFormat:@"Content-Disposition: form-data; name=\"userfile\"; filename=\"%@.wav\"\r\n", filename] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithString:@"Content-Type: application/octet-stream\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
+	
+	NSArray *searchPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	_documentsPath = [searchPaths objectAtIndex: 0];
+	[_documentsPath retain];
+	
+	NSString *path = [_documentsPath stringByAppendingPathComponent: filename];
+	//NSString *path = [[NSHomeDirectory() stringByAppendingPathComponent:@"Documents"] stringByAppendingPathComponent:@"image.jpg"]
+	NSData *data = [[NSData alloc] initWithContentsOfFile:path];
+	[postBody appendData:[NSData dataWithData:data]];
+	[postBody appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n", boundary] dataUsingEncoding:NSUTF8StringEncoding]];
+	
+	[theRequest setHTTPBody:postBody];
+//	[theRequest setValue:[NSString stringWithFormat:@"%d", [requestBody length]] forHTTPHeaderField:@"Content-Length"];
+	
+	theConnection = [[NSURLConnection alloc] initWithRequest:theRequest delegate:self];
+	
+	if (theConnection) {
+		// Create the NSMutableData that will hold the receivedData
+		receivedData = [[NSMutableData data] retain];
+	} else {
+		// inform the user that the request could not be made		
+	}
+	
+}
+
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
 	[receivedData setLength:0];	
 }

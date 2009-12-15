@@ -15,7 +15,6 @@
 
 @synthesize statusView, contactStats, contactStatus;
 @synthesize locationManager, locationMeasurements, bestEffortAtLocation;
-//@synthesize audioRecorder;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -346,6 +345,8 @@
 	NSLog (@"did finish playing");
 	[audioPlayer release];
 	audioPlayer = nil;
+	StatusRequest *statusRequest = [[StatusRequest alloc] init];
+	[statusRequest upload_voicemail:self requestSelector:@selector(upload_voicemail_greeting_callback:)];	
 }
 
 - (void)audioPlayerDecodeErrorDidOccur:(AVAudioPlayer *)player error:(NSError *)error {
@@ -357,6 +358,14 @@
 					 otherButtonTitles:nil];
 	[cantPlayAlert show];
 	[cantPlayAlert release]; 
+}
+
+- (void) upload_voicemail_greeting_callback:(NSData *)data {
+	NSString *status = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
+	NSLog(@"Status voicemail greeting upload callback %@", status);	
+	SBJSON *jsonParser = [SBJSON new];
+	NSDictionary *myStatusDictionary = [[jsonParser objectWithString:status] objectForKey:@"voice_status"];
+	NSString *stat = [myStatusDictionary objectForKey:@"stat"];
 }
 
 @end

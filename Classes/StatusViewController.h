@@ -47,8 +47,9 @@
 
 - (IBAction) postStatus:(id)sender;
 - (void) postStatusWithLocation:(CLLocation *)location;
-- (void)friends_status_callback:(NSData *)data;
-- (void)status_update_callback:(NSData *)data;
+- (void) friends_status_callback:(NSData *)data;
+- (void) status_update_callback:(NSData *)data;
+- (void) upload_voicemail_greeting_callback:(NSData *)data;
 
 - (NSError *) createAVAudioRecorder;
 - (IBAction) startRecording:(id)sender;

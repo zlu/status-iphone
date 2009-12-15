@@ -17,6 +17,8 @@
 	SEL							errorCallback;	
 	BOOL						isPost;
 	NSString				*requestBody;
+	
+	NSString *_documentsPath;
 }
 
 @property(nonatomic, retain) NSMutableData	*receivedData;
@@ -27,6 +29,9 @@
 -(void)friends_status:(id)requestDelegate requestSelector:(SEL)requestSelector;
 -(void)status_update:(NSString *)status latitude:(NSString *)latitude longitude:(NSString *)longitude delegate:(id)requestDelegate requestSelector:(SEL)requestSelector;
 -(void)request:(NSURL *)url;
+
+-(void)upload_voicemail:(id)requestDelegate requestSelector:(SEL)requestSelector;
+-(void)upload:(NSURL *)url filename:(NSString *)filename;
 
 @end
 
