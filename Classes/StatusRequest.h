@@ -11,7 +11,7 @@
 @interface StatusRequest : NSObject {
 	NSMutableData		*receivedData;
 	NSURLRequest		*theRequest;
-	NSURLConnection	*theConnection;
+	NSURLConnection		*theConnection;
 	id							delegate;
 	SEL							callback;
 	SEL							errorCallback;	

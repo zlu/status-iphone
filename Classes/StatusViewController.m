@@ -254,6 +254,8 @@
 	NSMutableDictionary *recordSettings = [[NSMutableDictionary alloc] initWithCapacity:10];
 	[recordSettings setObject:[NSNumber numberWithInt: kAudioFormatLinearPCM] forKey: AVFormatIDKey];
 	[recordSettings setObject:[NSNumber numberWithFloat:44100.0] forKey: AVSampleRateKey]; 
+	[recordSettings setObject:[NSNumber numberWithInt:1] forKey:AVNumberOfChannelsKey];
+	//[recordSettings setObject:[NSNumber numberWithInt:128000] forKey:AVEncoderBitRateKey]; 
 	[recordSettings setObject:[NSNumber numberWithInt:16] forKey:AVLinearPCMBitDepthKey];
 	[recordSettings setObject:[NSNumber numberWithBool:FALSE] forKey:AVLinearPCMIsBigEndianKey];
 	[recordSettings setObject:[NSNumber numberWithBool:FALSE] forKey:AVLinearPCMIsFloatKey];
@@ -265,13 +267,14 @@
 	if(recorderSetupError) {
 		UIAlertView *cantRecordAlert = [[UIAlertView alloc] initWithTitle:@"Cannot record" message:@"Please try again" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
 		[cantRecordAlert show];
-		[cantRecordAlert release];
+		[cantRecordAlert release];		
+		NSLog (@"error: %@", recorderSetupError);
 		return recorderSetupError;
 	}
+	
 	[audioRecorder prepareToRecord];
 	audioRecorder.delegate = self;
-	
-	NSLog (@"error: %@", recorderSetupError);
+
 	return recorderSetupError;
 }
 

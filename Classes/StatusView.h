@@ -13,6 +13,7 @@
 
 @interface StatusView : UIView {
 	StatusViewController *statusViewController;
+	
 	UITextField *myStatusView;
 	IBOutlet UIButton *statusButton;
 	IBOutlet UIButton *startRecordButton;
